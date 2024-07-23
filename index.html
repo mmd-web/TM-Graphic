@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="position-absolute h-100 background_color position-absolute w-100" style="height: max-content !important;">
+        <header class="container-fluid">
+
+            <nav class=" navbar p_y_nav navbar-expand-lg d-flex align-items-center justify-content-between py-4">
+                <a class="navbar-brand text-light d-flex align-items-center column-gap-2">
+                    <img src="img/icon/Storefront.png" class="logo_size" alt="">
+                    <span style="font-weight: 500;" class="fs-4">NFT Marketplace</span>
+                </a>
+                <ul class="navbar-nav d-none d-sm-none d-lg-flex flex-row-reverse column-gap-3">
+                    <li class="nav-item">
+                        <a href="#" class="btn bg_color_basic text-light nav-link px-4 py-2">
+                            <img src="img/icon/User.png" alt="">
+                            <span>Sign in</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light">Connect a wallet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light">Rankings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light">Marketplace</a>
+                    </li>
+                </ul>
+
+                <button class="navbar-toggler border-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-box">
+                    <img src="img/icon/Burger Menu.png" alt="">
+                </button>
+                <div class="offcanvas offcanvas-start d-lg-none d-flex d-sm-flex px-3" id="offcanvas-box">
+                    <div class="d-flex align-items-center justify-content-between py-2">
+                        <a class="navbar-brand text-light d-flex align-items-center column-gap-2">
+                            <img src="img/icon/Storefront-2.png" alt="">
+                            <span style="font-weight: 500;">NFT Marketplace</span>
+                        </a>
+                        <button class="btn-close" data-bs-toggle="offcanvas"></button>
+                    </div>
+                    <hr style="width: 80%;" class="mx-auto shadow">
+                    <ul class="navbar-nav d-flex row-gap-2 d-sm-flex d-lg-none column-gap-3 flex-column-reverse">
+                        <li class="nav-item">
+                            <a href="#" class="btn background_color text-light nav-link">Sign in</a>
+                        </li>
+                        <hr style="width: 80%;" class="mx-auto shadow">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light rounded-3 px-2">Connect a wallet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light rounded-3 px-2">Rankings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light rounded-3 px-2 active">Marketplace</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="container-lg container-fluid p_y_nav py-5">
+                <div class="row">
+                    <div class="col-12 col-md-6 d-flex flex-column row-gap-md-4 row-gap-5">
+                        <div class="text-light d-flex flex-column row-gap-2 px-xxl-5">
+                            <h1 class="fs_title" id="title">Discover <br class="d-lg-flex d-none"> digital art & Collect
+                                NFTs</h1>
+                            <span class="text-light-50 fs-4 fs_text f_size_subtitle">NFT marketplace UI created with
+                                Anima for Figma. Collect,
+                                buy and sell art from more than 20k NFT artists.</span>
+                        </div>
+
+                        <div class="position-relative d-flex d-md-none flex-column rounded-4 overflow-hidden">
+                            <div class="w-100">
+                                <img src="img/img-header/Image Placeholder.png" style="width: 100% !important;" alt="">
+                            </div>
+                            <a href="#"
+                                class="d-flex text-decoration-none flex-column background_color_two text-light py-4 px-3">
+                                <span class="fs-5">Space Walking</span>
+                                <div class="text-light d-flex align-items-center column-gap-2 mt-2">
+                                    <img src="img/img-topProph/Avatar Placeholder-9.png" width="24" alt="">
+                                    <span>Animakid</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="px-xxl-5">
+                            <div>
+                                <a href="#"
+                                    class="btn bg_outline_basic text-light px-5 py-3 d-lg-inline-flex d-block align-items-center rounded-4 column-gap-2">
+                                    <img src="img/icon/RocketLaunch.png" class="f_size_btn_icon" width="24" alt="">
+                                    <span class="fs-5 f_size_btn">Get Started</span>
+                                </a>
+                            </div>
+                            <div class="py-5">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div
+                                            class="text-light d-flex justify-content-center align-items-center flex-column">
+                                            <span class="fs-2 f_size_text_num">240+</span>
+                                            <p class="fs-5 f_size_text">total sale</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div
+                                            class="text-light d-flex justify-content-center align-items-center flex-column">
+                                            <span class="fs-2 f_size_text_num">240+</span>
+                                            <p class="fs-5 f_size_text">total sale</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div
+                                            class="text-light d-flex justify-content-center align-items-center flex-column">
+                                            <span class="fs-2 f_size_text_num">240+</span>
+                                            <p class="fs-5 f_size_text">total sale</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" style="height: max-content;">
+                        <div class="position-relative d-md-flex d-none flex-column rounded-4 overflow-hidden">
+                            <div class="w-100">
+                                <img src="img/img-header/Image Placeholder.png" style="width: 100% !important;" alt="">
+                            </div>
+                            <a href="#"
+                                class="d-flex text-decoration-none flex-column background_color_two text-light py-4 px-3">
+                                <span class="fs-5">Space Walking</span>
+                                <div class="text-light d-flex align-items-center column-gap-2 mt-2">
+                                    <img src="img/img-topProph/Avatar Placeholder-9.png" width="24" alt="">
+                                    <span>Animakid</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <main class="text-light">
+            <div class="tranding container-lg container-fluid">
+                <div>
+                    <span class="fs-2 title_sub_text">Trending Collection</span>
+                    <p class="fs-5 sub_text text-light-50">Checkout our weekly updated trending collection.</p>
+                </div>
+
+                <div class="row mt-5 column-gap-lg-0 mx-auto">
+                    <div class="col-12 col-sm-6 col-xl-4 col-md-6">
+                        <div class="position-relative w-100 d-flex flex-column">
+                            <div>
+                                <img src="img/img-trending/Primary Photo Placeholder.png"
+                                    style="width: 100% !important;" alt="">
+                            </div>
+                            <div class="position-relative d-flex mt-2 flex-row column-gap-4 column_gap_items_md"
+                                style="width: 100% !important;">
+                                <a href="#" style="width: 30% !important;">
+                                    <img src="img/img-trending/Secondary Photo Placeholder.png"
+                                        style="width: 100% !important;" alt="">
+                                </a>
+                                <a href="#" style="width: 30% !important;">
+                                    <img src="img/img-trending/Secondary Photo Placeholder-1.png"
+                                        style="width: 100% !important;" alt="">
+                                </a>
+                                <a href="#" class="text-light text-decoration-none" style="width: 30% !important;">
+                                    <div class="bg_color_basic rounded-5 rounded_lg d-flex justify-content-center align-items-center w-100"
+                                        style="height: 97% !important;">
+                                        <span class="fs-4 fs_num_lg">1970+</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 d-none d-sm-flex col-xl-4 col-sm-6">
+                        <div class="position-relative w-100 d-flex flex-column">
+                            <div>
+                                <img src="img/img-trending/Primary Photo Placeholder-1.png"
+                                    style="width: 100% !important;" alt="">
+                            </div>
+                            <div class="position-relative d-flex mt-2 flex-row column-gap-4 column_gap_items_md"
+                                style="width: 100% !important;">
+                                <a href="#" style="width: 30% !important;">
+                                    <img src="img/img-trending/Secondary Photo Placeholder-2.png"
+                                        style="width: 100% !important;" alt="">
+                                </a>
+                                <a href="#" style="width: 30% !important;">
+                                    <img src="img/img-trending/Secondary Photo Placeholder-3.png"
+                                        style="width: 100% !important;" alt="">
+                                </a>
+                                <a href="#" class="text-light text-decoration-none" style="width: 30% !important;">
+                                    <div class="bg_color_basic rounded-5 rounded_lg d-flex justify-content-center align-items-center w-100"
+                                        style="height: 97% !important;">
+                                        <span class="fs-4 fs_num_lg">1970+</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 d-none col-xl-4 d-xl-flex">
+                        <div class="position-relative w-100 d-flex flex-column">
+                            <div>
+                                <img src="img/img-trending/Primary Photo Placeholder-2.png"
+                                    style="width: 100% !important;" alt="">
+                            </div>
+                            <div class="position-relative d-flex mt-2 flex-row column-gap-4 column_gap_items_md"
+                                style="width: 100% !important;">
+                                <a href="#" style="width: 30% !important;">
+                                    <img src="img/img-trending/Secondary Photo Placeholder-4.png"
+                                        style="width: 100% !important;" alt="">
+                                </a>
+                                <a href="#" style="width: 30% !important;">
+                                    <img src="img/img-trending/Secondary Photo Placeholder-5.png"
+                                        style="width: 100% !important;" alt="">
+                                </a>
+                                <a href="#" class="text-light text-decoration-none" style="width: 30% !important;">
+                                    <div class="bg_color_basic rounded-5 rounded_lg d-flex justify-content-center align-items-center w-100"
+                                        style="height: 97% !important;">
+                                        <span class="fs-4 fs_num_lg">1970+</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top_creators mt-5 container-lg container-fluid">
+                <div class="d-flex flex-row justify-content-between align-items-center">
+                    <div class="title_top_creators">
+                        <span class="fs-2 title_sub_text">Top creators</span>
+                        <p class="fs-5 sub_text text-light-50">Checkout Top Rated Creators on the NFT Marketplace</p>
+                    </div>
+                    <div class="btn_view_ankings d-sm-flex d-none">
+                        <a href="#"
+                            class="btn bg_outline_basic px-4 py-3 rounded-4 d-flex align-items-center flex-row column-gap-2">
+                            <img src="img/icon/RocketLaunch.png" class="fs_icon_btn_creators" alt="">
+                            <span class=" fs_btn_creators">View Rankings</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="items_top_creators">
+                    <div class="row row-gap-xl-4 row-gap-3">
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div
+                                class="position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4">
+                                <div class="img_box_size_card_top_creators">
+                                    <img src="img/img-creators/Avatar Placeholder.png"
+                                        class="img_size_card_top_creators" alt="">
+                                </div>
+                                <div class="">
+                                    <span class="text-light fs_creators_title">Keepitreal</span>
+                                    <span
+                                        class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">Total
+                                        SalesL: <p class="text-light mb-0">34.53 ETH</p> </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div
+                                class="position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4">
+                                <div class="img_box_size_card_top_creators">
+                                    <img src="img/img-creators/Avatar Placeholder.png"
+                                        class="img_size_card_top_creators" alt="">
+                                </div>
+                                <div class="">
+                                    <span class="text-light fs_creators_title">Keepitreal</span>
+                                    <span
+                                        class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">Total
+                                        SalesL: <p class="text-light mb-0">34.53 ETH</p> </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div
+                                class="position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4">
+                                <div class="img_box_size_card_top_creators">
+                                    <img src="img/img-creators/Avatar Placeholder.png"
+                                        class="img_size_card_top_creators" alt="">
+                                </div>
+                                <div class="">
+                                    <span class="text-light fs_creators_title">Keepitreal</span>
+                                    <span
+                                        class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">Total
+                                        SalesL: <p class="text-light mb-0">34.53 ETH</p> </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div
+                                class="position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4">
+                                <div class="img_box_size_card_top_creators">
+                                    <img src="img/img-creators/Avatar Placeholder.png"
+                                        class="img_size_card_top_creators" alt="">
+                                </div>
+                                <div class="">
+                                    <span class="text-light fs_creators_title">Keepitreal</span>
+                                    <span
+                                        class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">Total
+                                        SalesL: <p class="text-light mb-0">34.53 ETH</p> </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div
+                                class="position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4">
+                                <div class="img_box_size_card_top_creators">
+                                    <img src="img/img-creators/Avatar Placeholder.png"
+                                        class="img_size_card_top_creators" alt="">
+                                </div>
+                                <div class="">
+                                    <span class="text-light fs_creators_title">Keepitreal</span>
+                                    <span
+                                        class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">Total
+                                        SalesL: <p class="text-light mb-0">34.53 ETH</p> </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div
+                                class="position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4">
+                                <div class="img_box_size_card_top_creators">
+                                    <img src="img/img-creators/Avatar Placeholder.png"
+                                        class="img_size_card_top_creators" alt="">
+                                </div>
+                                <div class="">
+                                    <span class="text-light fs_creators_title">Keepitreal</span>
+                                    <span
+                                        class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">Total
+                                        SalesL: <p class="text-light mb-0">34.53 ETH</p> </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 d-lg-inline d-none">
+                            <div
+                                class="position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4">
+                                <div class="img_box_size_card_top_creators">
+                                    <img src="img/img-creators/Avatar Placeholder.png"
+                                        class="img_size_card_top_creators" alt="">
+                                </div>
+                                <div class="">
+                                    <span class="text-light fs_creators_title">Keepitreal</span>
+                                    <span
+                                        class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">Total
+                                        SalesL: <p class="text-light mb-0">34.53 ETH</p> </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 d-lg-inline d-none">
+                            <div
+                                class="position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4">
+                                <div class="img_box_size_card_top_creators">
+                                    <img src="img/img-creators/Avatar Placeholder.png"
+                                        class="img_size_card_top_creators" alt="">
+                                </div>
+                                <div class="">
+                                    <span class="text-light fs_creators_title">Keepitreal</span>
+                                    <span
+                                        class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">Total
+                                        SalesL: <p class="text-light mb-0">34.53 ETH</p> </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 d-lg-inline d-none">
+                            <div
+                                class="position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4">
+                                <div class="img_box_size_card_top_creators">
+                                    <img src="img/img-creators/Avatar Placeholder.png"
+                                        class="img_size_card_top_creators" alt="">
+                                </div>
+                                <div class="">
+                                    <span class="text-light fs_creators_title">Keepitreal</span>
+                                    <span
+                                        class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">Total
+                                        SalesL: <p class="text-light mb-0">34.53 ETH</p> </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 d-lg-inline d-none">
+                            <div
+                                class="position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4">
+                                <div class="img_box_size_card_top_creators">
+                                    <img src="img/img-creators/Avatar Placeholder.png"
+                                        class="img_size_card_top_creators" alt="">
+                                </div>
+                                <div class="">
+                                    <span class="text-light fs_creators_title">Keepitreal</span>
+                                    <span
+                                        class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">Total
+                                        SalesL: <p class="text-light mb-0">34.53 ETH</p> </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 d-lg-inline d-none">
+                            <div
+                                class="position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4">
+                                <div class="img_box_size_card_top_creators">
+                                    <img src="img/img-creators/Avatar Placeholder.png"
+                                        class="img_size_card_top_creators" alt="">
+                                </div>
+                                <div class="">
+                                    <span class="text-light fs_creators_title">Keepitreal</span>
+                                    <span
+                                        class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">Total
+                                        SalesL: <p class="text-light mb-0">34.53 ETH</p> </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 d-lg-inline d-none">
+                            <div
+                                class="position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4">
+                                <div class="img_box_size_card_top_creators">
+                                    <img src="img/img-creators/Avatar Placeholder.png"
+                                        class="img_size_card_top_creators" alt="">
+                                </div>
+                                <div class="">
+                                    <span class="text-light fs_creators_title">Keepitreal</span>
+                                    <span
+                                        class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">Total
+                                        SalesL: <p class="text-light mb-0">34.53 ETH</p> </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="btn_view_ankings d-sm-none d-block py-4">
+                    <a href="#"
+                        class="btn bg_outline_basic text-light px-5 py-3 d-lg-inline-flex d-block align-items-center rounded-4 column-gap-2">
+                        <img src="img/icon/RocketLaunch.png" class="f_size_btn_icon" width="24" alt="">
+                        <span class="fs-5 f_size_btn">View Rankings</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="browse_categories mt-5 container-lg container-fluid">
+                <div class="py-4">
+                    <span class="fs-2 title_sub_text">Browse Categories</span>
+                </div>
+                <div class="row row-gap-5">
+                    <div class="col-6 col-lg-3">
+                        <a href="#"
+                            class="background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            <div>
+                                <img src="img/img-browse/Photo & Icon.png" style="width: 100% !important;" alt="">
+                            </div>
+                            <div class="py-lg-3 py-xl-4 py-sm-4 py-3 container text-light fs-4">
+                                <span>Art</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <a href="#"
+                            class="background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            <div>
+                                <img src="img/img-browse/Category Icon-2.png" style="width: 100% !important;" alt="">
+                            </div>
+                            <div class="py-lg-3 py-xl-4 py-sm-4 py-3 container text-light fs-4">
+                                <span>Art</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <a href="#"
+                            class="background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            <div>
+                                <img src="img/img-browse/Category Icon-2.png" style="width: 100% !important;" alt="">
+                            </div>
+                            <div class="py-lg-3 py-xl-4 py-sm-4 py-3 container text-light fs-4">
+                                <span>Art</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <a href="#"
+                            class="background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            <div>
+                                <img src="img/img-browse/Category Icon-3.png" style="width: 100% !important;" alt="">
+                            </div>
+                            <div href="#" class="py-lg-3 py-xl-4 py-sm-4 py-3 container text-light fs-4">
+                                <span>Art</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <a href="#"
+                            class="background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            <div>
+                                <img src="img/img-browse/Photo & Icon.png" style="width: 100% !important;" alt="">
+                            </div>
+                            <div class="py-lg-3 py-xl-4 py-sm-4 py-3 container text-decoration-none text-light fs-4">
+                                <span>Art</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <a href="#"
+                            class="background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            <div>
+                                <img src="img/img-browse/Category Icon.png" style="width: 100% !important;" alt="">
+                            </div>
+                            <div class="py-lg-3 py-xl-4 py-sm-4 py-3 container text-light fs-4">
+                                <span>Art</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <a href="#"
+                            class="background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            <div>
+                                <img src="img/img-browse/Category Icon-2.png" style="width: 100% !important;" alt="">
+                            </div>
+                            <div class="py-lg-3 py-xl-4 py-sm-4 py-3 container text-light fs-4">
+                                <span>Art</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <a href="#"
+                            class="background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            <div>
+                                <img src="img/img-browse/Category Icon-3.png" style="width: 100% !important;" alt="">
+                            </div>
+                            <div class="py-lg-3 py-xl-4 py-sm-4 py-3 container text-light fs-4">
+                                <span>Art</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="discover_more mt-5 container-lg container-fluid">
+                <div class="d-flex flex-row justify-content-between align-items-center">
+                    <div class="title_top_creators_2">
+                        <span class="fs-2 title_sub_text">Discover More NFTs</span>
+                        <p class="fs-5 sub_text text-light-50">Explore new trending NFTs</p>
+                    </div>
+                    <div class="btn_view_ankings d-sm-flex d-none">
+                        <a href="#"
+                            class="btn bg_outline_basic px-4 py-3 rounded-4 d-flex align-items-center flex-row column-gap-2">
+                            <img src="img/icon/Eye.png" class="fs_icon_btn_creators" alt="">
+                            <span class=" fs_btn_creators">View Rankings</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="row row-gap-3">
+                        <div class="col-12 col-lg-4 col-sm-6">
+                            <div class="background_color_two rounded-4 overflow-hidden">
+                                <a href="#" class="text-decoration-none text-light">
+                                    <div>
+                                        <img src="img/img-trending/Image Placeholder.png"
+                                            style="width: 100% !important;" alt="">
+                                    </div>
+                                    <div class="py-3 px-3 d-flex flex-column row-gap-3">
+                                        <div class="d-flex flex-column">
+                                            <span class="fs-5">Distant Galaxy</span>
+                                            <div>
+                                                <img src="img/img-creators/Avatar Placeholder-5.png" width="24" alt="">
+                                                <span style="font-size: 14px !important;">MoonDancer</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column row-gap-1">
+                                            <div class="d-flex flex-row justify-content-between align-content-center text-light-50"
+                                                style="font-size: 14px !important;">
+                                                <span>Price</span>
+                                                <span>Highest Bid</span>
+                                            </div>
+                                            <div class="d-flex flex-row justify-content-between align-content-center"
+                                                style="font-size: 16px !important;">
+                                                <span>1.63 ETH</span>
+                                                <span>0.33 wETH</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 col-sm-6">
+                            <div class="background_color_two rounded-4 overflow-hidden">
+                                <a href="#" class="text-decoration-none text-light">
+                                    <div>
+                                        <img src="img/img-trending/Image Placeholder.png"
+                                            style="width: 100% !important;" alt="">
+                                    </div>
+                                    <div class="py-3 px-3 d-flex flex-column row-gap-3">
+                                        <div class="d-flex flex-column">
+                                            <span class="fs-5">Distant Galaxy</span>
+                                            <div>
+                                                <img src="img/img-creators/Avatar Placeholder-5.png" width="24" alt="">
+                                                <span style="font-size: 14px !important;">MoonDancer</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column row-gap-1">
+                                            <div class="d-flex flex-row justify-content-between align-content-center text-light-50"
+                                                style="font-size: 14px !important;">
+                                                <span>Price</span>
+                                                <span>Highest Bid</span>
+                                            </div>
+                                            <div class="d-flex flex-row justify-content-between align-content-center"
+                                                style="font-size: 16px !important;">
+                                                <span>1.63 ETH</span>
+                                                <span>0.33 wETH</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 d-block d-sm-none d-lg-block col-lg-4 col-sm-6">
+                            <div class="background_color_two rounded-4 overflow-hidden">
+                                <a href="#" class="text-decoration-none text-light">
+                                    <div>
+                                        <img src="img/img-trending/Image Placeholder.png"
+                                            style="width: 100% !important;" alt="">
+                                    </div>
+                                    <div class="py-3 px-3 d-flex flex-column row-gap-3">
+                                        <div class="d-flex flex-column">
+                                            <span class="fs-5">Distant Galaxy</span>
+                                            <div>
+                                                <img src="img/img-creators/Avatar Placeholder-5.png" width="24" alt="">
+                                                <span style="font-size: 14px !important;">MoonDancer</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column row-gap-1">
+                                            <div class="d-flex flex-row justify-content-between align-content-center text-light-50"
+                                                style="font-size: 14px !important;">
+                                                <span>Price</span>
+                                                <span>Highest Bid</span>
+                                            </div>
+                                            <div class="d-flex flex-row justify-content-between align-content-center"
+                                                style="font-size: 16px !important;">
+                                                <span>1.63 ETH</span>
+                                                <span>0.33 wETH</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btn_view_ankings d-sm-none d-block py-4">
+                    <a href="#"
+                        class="btn bg_outline_basic text-light px-5 py-3 d-lg-inline-flex d-block align-items-center rounded-4 column-gap-2">
+                        <img src="img/icon/Eye.png" class="f_size_btn_icon" width="24" alt="">
+                        <span class="fs-5 f_size_btn">View Rankings</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="magic_box mt-5 d-flex justify-content-center">
+                <div class="bg_gradient_magic z-1"></div>
+                <div class="container_magic z-3 d-flex flex-column justify-content-end">
+                    <div class="mb-5">
+                        <div>
+                            <a href="#"
+                                class="btn background_color_two rounded-pill text-light px-4 d-inline-flex flex-row align-items-center column-gap-3">
+                                <img src="img/img-creators/Avatar Placeholder-2.png" width="28" alt="">
+                                <span class="fs-6">Shroomie</span>
+                            </a>
+                        </div>
+                        <div class="row g-0 px-1 mt-4 mt-md-3">
+                            <div class="col-md-6 col-12">
+                                <div class="d-flex flex-column mb-4 mb-md-0 align-items-start">
+                                    <span class="fs-1">Magic Mashrooms</span>
+                                    <a href="#"
+                                        class="btn btn-light mt-4 text-dark d-flex flex-row align-items-center column-gap-3 px-5 py-3 rounded-4">
+                                        <img src="img/icon/Eye.png" class="bg-dark" alt="">
+                                        <span class="fs-4">See NFT</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12 d-flex justify-content-md-end justify-content-start">
+                                <div class="bg_date_box_magic mt-4 mt-md-0 rounded-4 d-inline-flex flex-column px-5 py-4" style="max-width: 100% !important;">
+                                    <div>
+                                        <p class="fs-6 text-light-50">Auction ends in:</p>
+                                    </div>
+                                    <div class="d-flex flex-row fs-1 justify-content-between column-gap-md-4 column-gap-2 flex-wrap">
+                                        <span id="Hour" style="min-width: 42px !important;">00</span>
+                                        <p>:</p>
+                                        <span id="Minutes" style="min-width: 42px !important;">00</span>
+                                        <p>:</p>
+                                        <span id="Second" style="min-width: 42px !important;">00</span>
+                                    </div>
+                                    <div class="d-flex flex-row fs-6 fs_time_text justify-content-between column-gap-md-4 column-gap-2 flex-wrap">
+                                        <span>Hour</span>
+                                        <span>Minutes</span>
+                                        <span>Second</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="works_box mt-5 container-lg container-fluid">
+                <div>
+                    <span class="fs-2 title_sub_text">How it works</span>
+                    <p class="fs-5 sub_text text-light-50">Find out how to get started</p>
+                </div>
+
+                <div class="row row-gap-4">
+                    <div class="col-md-4 col-12 d-flex justify-content-center">
+                        <div class="background_color_two w_lg_card_blog d-flex flex-column align-items-center text-center h-100 px-4 py-5 rounded-4">
+                            <div class="mb-4">
+                                <img src="img/img-trending/Icon.png" style="width: 100% !important;" alt="">
+                            </div>
+                            <div class="d-flex flex-column row-gap-3">
+                                <span class="fs_work_card_title">Setup Your wallet</span>
+                                <p class="m-0 fs_work_card_subtitle text-light-50">Set up your wallet of choice. Connect
+                                    it to the Animarket by clicking the wallet icon in the top right corner.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 d-flex justify-content-center">
+                        <div class="background_color_two d-flex flex-column align-items-center text-center w_lg_card_blog h-100 px-4 py-5 rounded-4">
+                            <div class="mb-4">
+                                <img src="img/img-trending/Icon-2.png" style="width: 100% !important;" alt="">
+                            </div>
+                            <div class="d-flex flex-column row-gap-3">
+                                <span class="fs_work_card_title">Create Collection</span>
+                                <p class="m-0 fs_work_card_subtitle text-light-50">Upload your work and setup your
+                                    collection. Add a description, social links and floor price.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 d-flex justify-content-center">
+                        <div class="background_color_two d-flex flex-column align-items-center text-center w_lg_card_blog h-100 px-4 py-5 rounded-4">
+                            <div class="mb-4">
+                                <img src="img/img-trending/Icon-3.png" style="width: 100% !important;" alt="">
+                            </div>
+                            <div class="d-flex flex-column row-gap-3">
+                                <span class="fs_work_card_title">Start Earning</span>
+                                <p class="m-0 fs_work_card_subtitle text-light-50">Choose between auctions and
+                                    fixed-price listings. Start earning by selling your NFTs or trading others.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form_box mt-5 container-lg container-fluid d-flex flex-row justify-content-center align-items-center">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="background_color_two rounded-4 overflow-hidden">
+
+                            <div
+                                class="d-flex flex-sm-row flex-column text-light px-md-3 px-0 py-3 column-gap-md-5 column-gap-0 justify-content-around align-items-center">
+                                <div class="w_sm_100_img_form d-flex justify-content-center align-items-center">
+                                    <img src="img/img-trending/Photo.png" style="width: 80% !important;" alt="">
+                                </div>
+                                <div class="item_left_form mt-sm-0 mt-3">
+                                    <div class="d-flex flex-column row-gap-4">
+                                        <span class="fs_title_form_box">Join our weekly digest</span>
+                                        <p class="m-0 fs-6 fs_lg_form_box">Get exclusive promotions & updates straight
+                                            to your inbox.</p>
+                                    </div>
+                                    <form class="input-group d-lg-flex d-none mt-4">
+                                        <input type="text" class="form-control border-0 input_group_box"
+                                            placeholder="Enter Your Email Address">
+                                        <button
+                                            class="input-group-text border-0 text-light fs-6 px-4 py-2 rounded-end-3 bg_color_basic d-flex flex-row justify-content-center align-items-center column-gap-lg-2 column-gap-1">
+                                            <img src="img/icon/EnvelopeSimple.png" width="20" alt="">
+                                            <span>Subscribe</span>
+                                        </button>
+                                    </form>
+                                    <form class="d-lg-none d-flex flex-column mt-4 row-gap-4 w-100">
+                                        <input type="text" class="form-control py-2 px-3 rounded-pill"
+                                            placeholder="Enter Your Email Address">
+                                        <button
+                                            class="btn py-2 bg_color_basic text-light fs-6 rounded-pill d-flex flex-row justify-content-center align-items-center column-gap-lg-2 column-gap-1">
+                                            <img src="img/icon/EnvelopeSimple.png" width="20" alt="">
+                                            <span>Subscribe</span>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="background_color_two py-4 mt-5">
+            <div class="row container-lg container-fluid mx-auto">
+                <div class="col-12 col-lg-4 mt-lg-0 mt-5">
+                    <div class="px-xl-4 px-0">
+                        <a class="navbar-brand text-light d-flex align-items-center column-gap-2">
+                            <img src="img/icon/Storefront.png" class="logo_size" alt="">
+                            <span style="font-weight: 500;" class="fs-3">NFT Marketplace</span>
+                        </a>
+                        <ul class="list-group mt-4 row-gap-3">
+                            <li class="list-unstyled">
+                                <a href="#" class="text-decoration-none fs-5 text-light-50">NFT marketplace UI created with Anima for Figma</a>
+                            </li>
+                            <li class="list-unstyled">
+                                <a href="#" class="text-decoration-none fs-5 text-light-50">Join our community</a>
+                            </li>
+                            <li class="list-unstyled d-flex flex-row column-gap-3">
+                                <a href="#" class="text-decoration-none fs-5 text-light-50">
+                                    <img src="img/icon/DiscordLogo.png" width="36" alt="">
+                                </a>
+                                <a href="#" class="text-decoration-none fs-5 text-light-50">
+                                    <img src="img/icon/YoutubeLogo.png" width="36" alt="">
+                                </a>
+                                <a href="#" class="text-decoration-none fs-5 text-light-50">
+                                    <img src="img/icon/TwitterLogo.png" width="36" alt="">
+                                </a>
+                                <a href="#" class="text-decoration-none fs-5 text-light-50">
+                                    <img src="img/icon/InstagramLogo.png" width="36" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 mt-lg-0 mt-5">
+                    <div class="px-xl-4 px-0">
+                        <div>
+                            <span class="fs-3 text-light">Explore</span>
+                        </div>
+                        <ul class="list-group mt-4 row-gap-3">
+                            <li class="list-unstyled">
+                                <a href="#" class="text-decoration-none fs-5 text-light-50">Marketplace</a>
+                            </li>
+                            <li class="list-unstyled">
+                                <a href="#" class="text-decoration-none fs-5 text-light-50">Rankings</a>
+                            </li>
+                            <li class="list-unstyled">
+                                <a href="#" class="text-decoration-none fs-5 text-light-50">Connect a wallet</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 mt-lg-0 mt-5">
+                    <div class="px-xl-4 px-0">
+                        <div>
+                            <span class="fs-3 text-light">Join our weekly digest</span>
+                        </div>
+                        <ul class="list-group mt-4">
+                            <li class="list-unstyled">
+                                <a href="#" class="text-decoration-none fs-5 text-light-50">Get exclusive promotions & updates straight to your inbox.</a>
+                            </li>
+                            <li class="list-unstyled">
+                                <form class="input-group d-sm-flex d-none mt-4">
+                                    <input type="text" class="form-control border-0 input_group_box" placeholder="Enter Your Email Address">
+                                    <button class="input-group-text border-0 text-light fs-6 px-4 py-3 rounded-end-3 bg_color_basic d-flex flex-row justify-content-center align-items-center column-gap-lg-2 column-gap-1">
+                                        <img src="img/icon/EnvelopeSimple.png" width="20" alt="">
+                                        <span>Subscribe</span>
+                                    </button>
+                                </form>
+                                <form class="d-sm-none d-flex flex-column mt-4 row-gap-4 w-100">
+                                    <input type="text" class="form-control py-2 px-3 rounded-pill" placeholder="Enter Your Email Address">
+                                    <button class="btn py-2 bg_color_basic text-light fs-6 rounded-pill d-flex flex-row justify-content-center align-items-center column-gap-lg-2 column-gap-1">
+                                        <img src="img/icon/EnvelopeSimple.png" width="20" alt="">
+                                        <span>Subscribe</span>
+                                    </button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
