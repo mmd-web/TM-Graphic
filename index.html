@@ -12,9 +12,9 @@
 <body>
 
     <div class="position-absolute h-100 background_color position-absolute w-100" style="height: max-content !important;">
-        <header class="container-fluid">
+        <header class="">
 
-            <nav class=" navbar p_y_nav navbar-expand-lg d-flex align-items-center justify-content-between py-4">
+            <nav class="navbar_bg navbar p_y_nav navbar-expand-lg position-fixed w-100 px-5 d-flex align-items-center justify-content-between py-4" style="z-index: 20;">
                 <a class="navbar-brand text-light d-flex align-items-center column-gap-2">
                     <img src="img/icon/Storefront.png" class="logo_size" alt="">
                     <span style="font-weight: 500;" class="fs-4">NFT Marketplace</span>
@@ -40,7 +40,7 @@
                 <button class="navbar-toggler border-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-box">
                     <img src="img/icon/Burger Menu.png" alt="">
                 </button>
-                <div class="offcanvas offcanvas-start d-lg-none d-flex d-sm-flex px-3" id="offcanvas-box">
+                <div class="offcanvas offcanvas-start d-lg-none d-flex d-sm-flex px-3 offcanvas-box" id="offcanvas-box" style="height: 100vh;">
                     <div class="d-flex align-items-center justify-content-between py-2">
                         <a class="navbar-brand text-light d-flex align-items-center column-gap-2">
                             <img src="img/icon/Storefront-2.png" alt="">
@@ -67,7 +67,7 @@
                 </div>
             </nav>
 
-            <div class="container-lg container-fluid p_y_nav py-5">
+            <!-- <div class="container-lg container-fluid p_y_nav py-5">
                 <div class="row">
                     <div class="col-12 col-md-6 d-flex flex-column row-gap-md-4 row-gap-5">
                         <div class="text-light d-flex flex-column row-gap-2 px-xxl-5">
@@ -143,12 +143,16 @@
                         </div>
                     </div>
                 </div>
+            </div> -->
+
+            <div class="header_content position-relative">
+                <div class="bg_gradient_magic"></div>
             </div>
 
         </header>
 
         <main class="text-light">
-            <div class="tranding container-lg container-fluid">
+            <div class="tranding container-lg container-fluid mt-5">
                 <div>
                     <span class="fs-2 title_sub_text">Trending Collection</span>
                     <p class="fs-5 sub_text text-light-50">Checkout our weekly updated trending collection.</p>
