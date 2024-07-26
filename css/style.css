@@ -1,5 +1,5 @@
 :root {
-    --Basic_color:#A259FF;
+    --Basic_color:#018180;
     --Background:#2B2B2B;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .bg_outline_basic {
-    border: 2px solid #A259FF;
+    border: 2px solid var(--Basic_color);
     color: #fff;
     transition: background-color 300ms;
 }
@@ -119,7 +119,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to top , #a159ffd6 , #ffffff00);
+    /* background-image: linear-gradient(to top , #a159ffd6 , #ffffff00); */
 }
 
 .container_magic {
@@ -163,7 +163,7 @@ body {
 .header_content {
     width: 100%;
     min-height: 100vh;
-    background-image: url('../img/img-trending/NFT\ Highlight.png');
+    background-image: url('../img/Untitled-15.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
