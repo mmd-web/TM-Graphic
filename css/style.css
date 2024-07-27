@@ -99,7 +99,8 @@ body {
 }
 
 .img_size_card_top_creators {
-    width: 100% !important;
+    /* width: 100% !important; */
+    width: 140px;
 }
 
 .magic_box {
@@ -178,6 +179,33 @@ body {
 .offcanvas-box {
     background-color: var(--Basic_color);
 }
+
+.box_title_page_logo {
+    height: 500px;
+    background-image: url('../img/img-trending/NFT\ Highlight.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+
+.title_logo_item {
+    position: relative;
+    width: 400px;
+    height: 100%;
+    display: flex;
+}
+
+.border_color_logo {
+    border-top: 1px solid #e4e4e43b;
+}
+
+.btn_title_logo.active {
+    border-bottom: 2px solid #e4e4e43b;
+}
+
+
+
 #title {
     font-weight: 700; font-size: 60px;
 }
