@@ -1,67 +1,81 @@
 let $ = document;
 
-let hourElem = $.getElementById('Hour');
-let minutesElem = $.getElementById('Minutes');
-let secondElem = $.getElementById('Second');
+let imgBox = $.querySelectorAll ('.img_one');
+let imgMainModal = $.getElementById('img_main_modal');
+let imgLastModal = $.querySelectorAll('.img_last');
+let imgBoxLastModal = $.querySelector('.box_img_last_modal');
 
-let hourNum = 12;
-let minutesNum = 59;
-let secondNum = 59;
-
-// Time Magic
-
-function timeMagic () {
-    let intervalValue = setInterval(() => {
-        if (secondNum <= 0 && minutesNum <= 0 && hourNum <= 0) {
-            clearInterval(intervalValue)
-        }
-
-        if (secondNum < 10) {
-            secondNum = '0'+secondNum;
-        }
-
-        if (secondNum === '0-1') {
-            minutesNum--;
-            secondNum = 59;
-        }
-
-        if (minutesNum <= -1) {
-            hourNum--;
-            minutesNum = 59;
-        }
-
-        if (hourNum < 10) {
-            hourNum = String(hourNum)
-            if (hourNum.indexOf('0') !== 0) {
-                hourNum = '0'+hourNum;
-            }
-            if (hourNum === '0') {
-                hourNum = '0'+hourNum;
-            }
-        }
-
-        if (minutesNum < 10) {
-            minutesNum = String(minutesNum)
-            if (minutesNum.indexOf('0') !== 0) {
-                minutesNum = '0'+minutesNum;
-            }
-            if (minutesNum === '0') {
-                minutesNum = '0'+minutesNum;
-            }
-        }
-        
-        InsertInformation (hourNum , minutesNum , secondNum);
-
-        secondNum--;
-    }, 1000);
+let imgTrandingList = {
+    one : [
+        {id : 1 , srcImg : '../img/img-trending/Primary Photo Placeholder.png'},
+        {id : 1 , srcImg : '../img/img-trending/Secondary Photo Placeholder.png'},
+        {id : 1 , srcImg : '../img/img-trending/Secondary Photo Placeholder-1.png'},
+    ],
+    two : [
+        {id : 1 , srcImg : '../img/img-trending/Primary Photo Placeholder-1.png'},
+        {id : 1 , srcImg : '../img/img-trending/Secondary Photo Placeholder-2.png'},
+        {id : 1 , srcImg : '../img/img-trending/Secondary Photo Placeholder-3.png'},
+    ],
+    three : [
+        {id : 1 , srcImg : '../img/img-trending/Primary Photo Placeholder-2.png'},
+        {id : 1 , srcImg : '../img/img-trending/Secondary Photo Placeholder-4.png'},
+        {id : 1 , srcImg : '../img/img-trending/Secondary Photo Placeholder-5.png'},
+    ],
 }
 
-function InsertInformation (hour , minutes , second) {
-    hourElem.innerHTML = hour;
-    minutesElem.innerHTML = minutes;
-    secondElem.innerHTML = second;
-}
-
-timeMagic();
-
-// Time Magic
+let saveSrcLastImg ;
+imgBox.forEach((box) => {
+    box.addEventListener('click' , (event) => {
+        if (event.target.id === 'one') {
+            let saveSrcImgMain = imgTrandingList.one.filter((src) => {
+                return src.srcImg === '../img/img-trending/Primary Photo Placeholder.png';
+            })
+            imgBoxLastModal.innerHTML = '';
+            imgTrandingList.one.forEach((item) => {
+                imgBoxLastModal.insertAdjacentHTML('beforeend' , `<div class="col-6"><img class="img_last" src="${item.srcImg}" width="150" alt=""></div>`);
+            })
+            let lastImg = $.querySelectorAll('.img_last');
+            lastImg.forEach((item) => {
+                item.addEventListener('click' ,(event) => {
+                    saveSrcLastImg = event.target.src;
+                    imgMainModal.src = saveSrcLastImg;
+                })
+            })
+            imgMainModal.src = saveSrcImgMain[0].srcImg;
+        }
+        if (event.target.id === 'two') {
+            let saveSrcImgMain = imgTrandingList.two.filter((src) => {
+                return src.srcImg === '../img/img-trending/Primary Photo Placeholder-1.png';
+            })
+            imgBoxLastModal.innerHTML = '';
+            imgTrandingList.two.forEach((item) => {
+                imgBoxLastModal.insertAdjacentHTML('beforeend' , `<div class="col-6"><img class="img_last" src="${item.srcImg}" width="150" alt=""></div>`);
+            })
+            let lastImg = $.querySelectorAll('.img_last');
+            lastImg.forEach((item) => {
+                item.addEventListener('click' ,(event) => {
+                    saveSrcLastImg = event.target.src;
+                    imgMainModal.src = saveSrcLastImg;
+                })
+            })
+            imgMainModal.src = saveSrcImgMain[0].srcImg;
+        }
+        if (event.target.id === 'three') {
+            let saveSrcImgMain = imgTrandingList.three.filter((src) => {
+                return src.srcImg === '../img/img-trending/Primary Photo Placeholder-2.png';
+            })
+            imgBoxLastModal.innerHTML = '';
+            imgTrandingList.three.forEach((item) => {
+                imgBoxLastModal.insertAdjacentHTML('beforeend' , `<div class="col-6"><img class="img_last" src="${item.srcImg}" width="150" alt=""></div>`);
+            })
+            let lastImg = $.querySelectorAll('.img_last');
+            lastImg.forEach((item) => {
+                item.addEventListener('click' ,(event) => {
+                    saveSrcLastImg = event.target.src;
+                    imgMainModal.src = saveSrcLastImg;
+                })
+            })
+            imgMainModal.src = saveSrcImgMain[0].srcImg;
+        }
+    })
+})

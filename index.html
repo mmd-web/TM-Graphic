@@ -11,10 +11,12 @@
 
 <body>
 
-    <div class="position-absolute h-100 background_color position-absolute w-100" style="height: max-content !important;">
+    <div class="position-absolute h-100 background_color position-absolute w-100"
+        style="height: max-content !important;">
         <header class="">
 
-            <nav class="navbar_bg navbar navbar-expand-lg position-fixed w-100 px-lg-5 px-3 d-flex align-items-center justify-content-between py-4" style="z-index: 20;">
+            <nav class="navbar_bg navbar navbar-expand-lg position-fixed w-100 px-lg-5 px-3 d-flex align-items-center justify-content-between py-4"
+                style="z-index: 20;">
                 <a class="navbar-brand text-light d-flex align-items-center column-gap-2">
                     <img src="img/icon/Storefront.png" class="logo_size" alt="">
                     <span style="font-weight: 500;" class="fs-4">TM grathic</span>
@@ -36,11 +38,14 @@
                         <a href="#" class="nav-link text-light">Marketplace</a>
                     </li>
                 </ul>
+                <a href="#"
+                    class="d-lg-flex d-none bg_color_basic text-light px-5 py-2 text-decoration-none rounded-2">about</a>
 
                 <button class="navbar-toggler border-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-box">
                     <img src="img/icon/Burger Menu.png" alt="">
                 </button>
-                <div class="offcanvas offcanvas-start d-lg-none d-flex d-sm-flex px-3 offcanvas-box" id="offcanvas-box" style="height: 100vh;">
+                <div class="offcanvas offcanvas-start d-lg-none d-flex d-sm-flex px-3 offcanvas-box" id="offcanvas-box"
+                    style="height: 100vh;">
                     <div class="d-flex align-items-center mt-2 justify-content-between py-1">
                         <a class="navbar-brand text-light d-flex align-items-center column-gap-2">
                             <img src="img/icon/Storefront-2.png" alt="">
@@ -68,13 +73,65 @@
             </nav>
 
             <div class="header_content position-relative">
-                <div class="bg_gradient_magic"></div>
+                <!-- <div class="bg_gradient_magic"></div> -->
             </div>
 
         </header>
 
         <main class="text-light">
-            <div class="tranding container-lg container-fluid mt-5">
+
+            <div class="modal fade text-light" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content background_color_two">
+                        <div class="modal-header" style="border-color: #c2c2c276;">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="row">
+                                <div class="col-8" style="border-right: 2px solid #c2c2c276;">
+                                    <div class="">
+                                        <div style="height: 50vh;" class="d-flex justify-content-center align-items-center">
+                                            <img id="img_main_modal" src="" style="height: 100%;" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="">
+                                        <div class="row row-gap-3 mx-auto box_img_last_modal">
+                                            <!-- <div class="col-6">
+                                                <img class="img_last" src="img/img-trending/Secondary Photo Placeholder.png" width="150" alt="">
+                                            </div>
+                                            <div class="col-6">
+                                                <img class="img_last" src="img/img-trending/Secondary Photo Placeholder.png" width="150" alt="">
+                                            </div>
+                                            <div class="col-6">
+                                                <img class="img_last" src="img/img-trending/Secondary Photo Placeholder.png" width="150" alt="">
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer" style="border-color: #c2c2c276;">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <script>
+                const myModal = document.getElementById('myModal')
+                const myInput = document.getElementById('myInput')
+
+                myModal.addEventListener('shown.bs.modal', () => {
+                    myInput.focus()
+                })
+            </script> -->
+
+            <div class="tranding position-relative container-lg container-fluid mt-5">
                 <div>
                     <span class="fs-2 title_sub_text">Trending Collection</span>
                     <p class="fs-5 sub_text text-light-50">Checkout our weekly updated trending collection.</p>
@@ -84,8 +141,7 @@
                     <div class="col-12 col-sm-6 col-xl-4 col-md-6">
                         <div class="position-relative w-100 d-flex flex-column">
                             <div>
-                                <img src="img/img-trending/Primary Photo Placeholder.png"
-                                    style="width: 100% !important;" alt="">
+                                <img id="one" class="img_one" data-bs-toggle="modal" data-bs-target="#exampleModal" src="img/img-trending/Primary Photo Placeholder.png" style="width: 100% !important;" alt="">
                             </div>
                             <div class="position-relative d-flex mt-2 flex-row column-gap-4 column_gap_items_md"
                                 style="width: 100% !important;">
@@ -98,7 +154,8 @@
                                         style="width: 100% !important;" alt="">
                                 </a>
                                 <a href="#" class="text-light text-decoration-none" style="width: 30% !important;">
-                                    <div class="bg_color_basic rounded-5 rounded_lg d-flex justify-content-center align-items-center w-100" style="height: 97% !important;">
+                                    <div class="bg_color_basic rounded-5 rounded_lg d-flex justify-content-center align-items-center w-100"
+                                        style="height: 97% !important;">
                                         <img src="img/icon/icons8-image-48.png" alt="">
                                     </div>
                                 </a>
@@ -110,8 +167,7 @@
                     <div class="col-12 col-sm-6 col-xl-4 col-md-6">
                         <div class="position-relative w-100 d-flex flex-column">
                             <div>
-                                <img src="img/img-trending/Primary Photo Placeholder-1.png"
-                                    style="width: 100% !important;" alt="">
+                                <img id="two" class="img_one" data-bs-toggle="modal" data-bs-target="#exampleModal" src="img/img-trending/Primary Photo Placeholder-1.png" style="width: 100% !important;" alt="">
                             </div>
                             <div class="position-relative d-flex mt-2 flex-row column-gap-4 column_gap_items_md"
                                 style="width: 100% !important;">
@@ -126,7 +182,8 @@
                                 <a href="#" class="text-light text-decoration-none" style="width: 30% !important;">
                                     <div class="bg_color_basic rounded-5 rounded_lg d-flex justify-content-center align-items-center w-100"
                                         style="height: 97% !important;">
-                                        <div class="bg_color_basic rounded-5 rounded_lg d-flex justify-content-center align-items-center w-100" style="height: 97% !important;">
+                                        <div class="bg_color_basic rounded-5 rounded_lg d-flex justify-content-center align-items-center w-100"
+                                            style="height: 97% !important;">
                                             <img src="img/icon/icons8-image-48.png" alt="">
                                         </div>
                                     </div>
@@ -139,8 +196,7 @@
                     <div class="col-12 col-sm-6 col-xl-4 col-md-6">
                         <div class="position-relative w-100 d-flex flex-column">
                             <div>
-                                <img src="img/img-trending/Primary Photo Placeholder-2.png"
-                                    style="width: 100% !important;" alt="">
+                                <img id="three" class="img_one" data-bs-toggle="modal" data-bs-target="#exampleModal" src="img/img-trending/Primary Photo Placeholder-2.png" style="width: 100% !important;" alt="">
                             </div>
                             <div class="position-relative d-flex mt-2 flex-row column-gap-4 column_gap_items_md"
                                 style="width: 100% !important;">
@@ -155,7 +211,8 @@
                                 <a href="#" class="text-light text-decoration-none" style="width: 30% !important;">
                                     <div class="bg_color_basic rounded-5 rounded_lg d-flex justify-content-center align-items-center w-100"
                                         style="height: 97% !important;">
-                                        <div class="bg_color_basic rounded-5 rounded_lg d-flex justify-content-center align-items-center w-100" style="height: 97% !important;">
+                                        <div class="bg_color_basic rounded-5 rounded_lg d-flex justify-content-center align-items-center w-100"
+                                            style="height: 97% !important;">
                                             <img src="img/icon/icons8-image-48.png" alt="">
                                         </div>
                                     </div>
@@ -386,7 +443,7 @@
                         <p class="fs-5 sub_text text-light-50">Checkout Top Rated Creators on the NFT Marketplace</p>
                     </div>
                     <div class="btn_view_ankings d-sm-flex d-none">
-                        <a href="#"
+                        <a href="bannerPage.html"
                             class="btn bg_outline_basic px-4 py-3 rounded-4 d-flex align-items-center flex-row column-gap-2">
                             <img src="img/icon/RocketLaunch.png" class="fs_icon_btn_creators" alt="">
                             <span class=" fs_btn_creators">View Rankings</span>
@@ -618,7 +675,8 @@
 
                 <div class="row row-gap-4">
                     <div class="col-md-4 col-12 d-flex justify-content-center">
-                        <div class="background_color_two w_lg_card_blog d-flex flex-column align-items-center text-center h-100 px-4 py-5 rounded-4">
+                        <div
+                            class="background_color_two w_lg_card_blog d-flex flex-column align-items-center text-center h-100 px-4 py-5 rounded-4">
                             <div class="mb-4">
                                 <img src="img/img-trending/Icon.png" style="width: 100% !important;" alt="">
                             </div>
@@ -630,7 +688,8 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-12 d-flex justify-content-center">
-                        <div class="background_color_two d-flex flex-column align-items-center text-center w_lg_card_blog h-100 px-4 py-5 rounded-4">
+                        <div
+                            class="background_color_two d-flex flex-column align-items-center text-center w_lg_card_blog h-100 px-4 py-5 rounded-4">
                             <div class="mb-4">
                                 <img src="img/img-trending/Icon-2.png" style="width: 100% !important;" alt="">
                             </div>
@@ -642,7 +701,8 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-12 d-flex justify-content-center">
-                        <div class="background_color_two d-flex flex-column align-items-center text-center w_lg_card_blog h-100 px-4 py-5 rounded-4">
+                        <div
+                            class="background_color_two d-flex flex-column align-items-center text-center w_lg_card_blog h-100 px-4 py-5 rounded-4">
                             <div class="mb-4">
                                 <img src="img/img-trending/Icon-3.png" style="width: 100% !important;" alt="">
                             </div>
@@ -656,7 +716,8 @@
                 </div>
             </div>
 
-            <div class="form_box mt-5 container-lg container-fluid d-flex flex-row justify-content-center align-items-center">
+            <div
+                class="form_box mt-5 container-lg container-fluid d-flex flex-row justify-content-center align-items-center">
                 <div class="row">
                     <div class="col-12">
                         <div class="background_color_two rounded-4 overflow-hidden">
@@ -709,7 +770,8 @@
                         </a>
                         <ul class="list-group mt-4 row-gap-3">
                             <li class="list-unstyled">
-                                <a href="#" class="text-decoration-none fs-5 text-light-50">NFT marketplace UI created with Anima for Figma</a>
+                                <a href="#" class="text-decoration-none fs-5 text-light-50">NFT marketplace UI created
+                                    with Anima for Figma</a>
                             </li>
                             <li class="list-unstyled">
                                 <a href="#" class="text-decoration-none fs-5 text-light-50">Join our community</a>
@@ -756,19 +818,24 @@
                         </div>
                         <ul class="list-group mt-4">
                             <li class="list-unstyled">
-                                <a href="#" class="text-decoration-none fs-5 text-light-50">Get exclusive promotions & updates straight to your inbox.</a>
+                                <a href="#" class="text-decoration-none fs-5 text-light-50">Get exclusive promotions &
+                                    updates straight to your inbox.</a>
                             </li>
                             <li class="list-unstyled">
                                 <form class="input-group d-sm-flex d-none mt-4">
-                                    <input type="text" class="form-control border-0 input_group_box" placeholder="Enter Your Email Address">
-                                    <button class="input-group-text border-0 text-light fs-6 px-4 py-3 rounded-end-3 bg_color_basic d-flex flex-row justify-content-center align-items-center column-gap-lg-2 column-gap-1">
+                                    <input type="text" class="form-control border-0 input_group_box"
+                                        placeholder="Enter Your Email Address">
+                                    <button
+                                        class="input-group-text border-0 text-light fs-6 px-4 py-3 rounded-end-3 bg_color_basic d-flex flex-row justify-content-center align-items-center column-gap-lg-2 column-gap-1">
                                         <img src="img/icon/EnvelopeSimple.png" width="20" alt="">
                                         <span>Subscribe</span>
                                     </button>
                                 </form>
                                 <form class="d-sm-none d-flex flex-column mt-4 row-gap-4 w-100">
-                                    <input type="text" class="form-control py-2 px-3 rounded-pill" placeholder="Enter Your Email Address">
-                                    <button class="btn py-2 bg_color_basic text-light fs-6 rounded-pill d-flex flex-row justify-content-center align-items-center column-gap-lg-2 column-gap-1">
+                                    <input type="text" class="form-control py-2 px-3 rounded-pill"
+                                        placeholder="Enter Your Email Address">
+                                    <button
+                                        class="btn py-2 bg_color_basic text-light fs-6 rounded-pill d-flex flex-row justify-content-center align-items-center column-gap-lg-2 column-gap-1">
                                         <img src="img/icon/EnvelopeSimple.png" width="20" alt="">
                                         <span>Subscribe</span>
                                     </button>
