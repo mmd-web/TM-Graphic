@@ -164,7 +164,7 @@ body {
 .header_content {
     width: 100%;
     min-height: 100vh;
-    background-image: url('../img/img-header/Banner\ 1\ \(1\)\ copy.jpg');
+    background-image: url('../img/img-header/Banner\ 1\ \(2\)\ copy.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -204,7 +204,13 @@ body {
     border-bottom: 2px solid #e4e4e43b;
 }
 
+.ms_100 {
+    margin-left: 100px;
+}
 
+.w_90 {
+    width: 90% !important;
+}
 
 #title {
     font-weight: 700; font-size: 60px;
