@@ -43,7 +43,7 @@ imgBox.forEach((box) => {
 
             imgBoxLastModal.innerHTML = '';
             imgTrandingList.one.forEach((item) => {
-                imgBoxLastModal.insertAdjacentHTML('beforeend' , `<div class=""><img class="img_last" src="${item.srcImg}" width="80" alt=""></div>`);
+                imgBoxLastModal.insertAdjacentHTML('beforeend' , `<div class=""><img class="img_last" src="${item.srcImg}" width="70" alt=""></div>`);
             })
             let lastImg = $.querySelectorAll('.img_last');
             lastImg.forEach((item) => {
@@ -64,7 +64,7 @@ imgBox.forEach((box) => {
 
             imgBoxLastModal.innerHTML = '';
             imgTrandingList.two.forEach((item) => {
-                imgBoxLastModal.insertAdjacentHTML('beforeend' , `<div class=""><img class="img_last" src="${item.srcImg}" width="80" alt=""></div>`);
+                imgBoxLastModal.insertAdjacentHTML('beforeend' , `<div class=""><img class="img_last" src="${item.srcImg}" width="70" alt=""></div>`);
             })
             let lastImg = $.querySelectorAll('.img_last');
             lastImg.forEach((item) => {
@@ -85,7 +85,7 @@ imgBox.forEach((box) => {
 
             imgBoxLastModal.innerHTML = '';
             imgTrandingList.three.forEach((item) => {
-                imgBoxLastModal.insertAdjacentHTML('beforeend' , `<div class=""><img class="img_last" src="${item.srcImg}" width="80" alt=""></div>`);
+                imgBoxLastModal.insertAdjacentHTML('beforeend' , `<div class=""><img class="img_last" src="${item.srcImg}" width="70" alt=""></div>`);
             })
             let lastImg = $.querySelectorAll('.img_last');
             lastImg.forEach((item) => {

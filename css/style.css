@@ -212,13 +212,28 @@ body {
     width: 90% !important;
 }
 
+.border_modal {
+    border-right: 2px solid #c2c2c276;
+}
+
 #title {
     font-weight: 700; font-size: 60px;
+}
+
+/* .height_modal {
+    height: 300px !important;
+} */
+
+.vw_height_modal_img {
+    height: 25vw;
 }
 
 @media only screen and (max-width:1400.80px) {
     .rounded_lg{
         border-radius: 1.4rem !important;
+    }
+    .modal_width {
+        width: 900px !important;
     }
 }
 
@@ -284,6 +299,16 @@ body {
     .fs_work_card_subtitle {
         font-size: 1.12rem !important;
     }
+    .border_modal {
+        border-right: 0;
+        border-bottom: 2px solid #c2c2c276;
+    }
+    .height_modal {
+        height: 300px !important;
+    }
+    .vw_height_modal_img {
+        height: 45vw;
+    }
 }
 
 @media only screen and (max-width:767.80px) {
@@ -337,6 +362,12 @@ body {
     }
     .fs_time_text {
         font-size: 12px !important;
+    }
+    .vw_height_modal_img {
+        height: 50vw;
+    }
+    .height_modal {
+        height: 200px !important;
     }
 }
 
