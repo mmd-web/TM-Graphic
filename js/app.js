@@ -8,19 +8,19 @@ let textBoxImgModal = $.querySelector('.text_box_img_modal');
 
 let imgTrandingList = {
     one : [
-        {id : 1 , srcImg : '../img/img-trending/Primary Photo Placeholder.png'},
-        {id : 2 , srcImg : '../img/img-trending/Secondary Photo Placeholder.png'},
-        {id : 3 , srcImg : '../img/img-trending/Secondary Photo Placeholder-1.png'},
+        {id : 1 , srcImg : 'img/img-trending/Primary Photo Placeholder.png'},
+        {id : 2 , srcImg : 'img/img-trending/Secondary Photo Placeholder.png'},
+        {id : 3 , srcImg : 'img/img-trending/Secondary Photo Placeholder-1.png'},
     ],
     two : [
-        {id : 4 , srcImg : '../img/img-trending/Primary Photo Placeholder-1.png'},
-        {id : 5 , srcImg : '../img/img-trending/Secondary Photo Placeholder-2.png'},
-        {id : 6 , srcImg : '../img/img-trending/Secondary Photo Placeholder-3.png'},
+        {id : 4 , srcImg : 'img/img-trending/Primary Photo Placeholder-1.png'},
+        {id : 5 , srcImg : 'img/img-trending/Secondary Photo Placeholder-2.png'},
+        {id : 6 , srcImg : 'img/img-trending/Secondary Photo Placeholder-3.png'},
     ],
     three : [
-        {id : 7 , srcImg : '../img/img-trending/Primary Photo Placeholder-2.png'},
-        {id : 8 , srcImg : '../img/img-trending/Secondary Photo Placeholder-4.png'},
-        {id : 9 , srcImg : '../img/img-trending/Secondary Photo Placeholder-5.png'},
+        {id : 7 , srcImg : 'img/img-trending/Primary Photo Placeholder-2.png'},
+        {id : 8 , srcImg : 'img/img-trending/Secondary Photo Placeholder-4.png'},
+        {id : 9 , srcImg : 'img/img-trending/Secondary Photo Placeholder-5.png'},
     ],
 }
 
@@ -35,7 +35,7 @@ imgBox.forEach((box) => {
     box.addEventListener('click' , (event) => {
         if (event.target.id === 'one') {
             let saveSrcImgMain = imgTrandingList.one.filter((src) => {
-                return src.srcImg === '../img/img-trending/Primary Photo Placeholder.png';
+                return src.srcImg === 'img/img-trending/Primary Photo Placeholder.png';
             })
 
             textBoxImgModal.innerHTML = '';
@@ -56,7 +56,7 @@ imgBox.forEach((box) => {
         }
         if (event.target.id === 'two') {
             let saveSrcImgMain = imgTrandingList.two.filter((src) => {
-                return src.srcImg === '../img/img-trending/Primary Photo Placeholder-1.png';
+                return src.srcImg === 'img/img-trending/Primary Photo Placeholder-1.png';
             })
 
             textBoxImgModal.innerHTML = '';
@@ -77,7 +77,7 @@ imgBox.forEach((box) => {
         }
         if (event.target.id === 'three') {
             let saveSrcImgMain = imgTrandingList.three.filter((src) => {
-                return src.srcImg === '../img/img-trending/Primary Photo Placeholder-2.png';
+                return src.srcImg === 'img/img-trending/Primary Photo Placeholder-2.png';
             })
 
             textBoxImgModal.innerHTML = '';
