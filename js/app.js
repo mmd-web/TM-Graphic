@@ -45,13 +45,7 @@ imgBox.forEach((box) => {
             imgTrandingList.one.forEach((item) => {
                 imgBoxLastModal.insertAdjacentHTML('beforeend' , `<div class=""><img class="img_last" src="${item.srcImg}" width="70" alt=""></div>`);
             })
-            let lastImg = $.querySelectorAll('.img_last');
-            lastImg.forEach((item) => {
-                item.addEventListener('click' ,(event) => {
-                    saveSrcLastImg = event.target.src;
-                    imgMainModal.src = saveSrcLastImg;
-                })
-            })
+            clickSrc()
             imgMainModal.src = saveSrcImgMain[0].srcImg;
         }
         if (event.target.id === 'two') {
@@ -66,13 +60,7 @@ imgBox.forEach((box) => {
             imgTrandingList.two.forEach((item) => {
                 imgBoxLastModal.insertAdjacentHTML('beforeend' , `<div class=""><img class="img_last" src="${item.srcImg}" width="70" alt=""></div>`);
             })
-            let lastImg = $.querySelectorAll('.img_last');
-            lastImg.forEach((item) => {
-                item.addEventListener('click' ,(event) => {
-                    saveSrcLastImg = event.target.src;
-                    imgMainModal.src = saveSrcLastImg;
-                })
-            })
+            clickSrc()
             imgMainModal.src = saveSrcImgMain[0].srcImg;
         }
         if (event.target.id === 'three') {
@@ -87,14 +75,18 @@ imgBox.forEach((box) => {
             imgTrandingList.three.forEach((item) => {
                 imgBoxLastModal.insertAdjacentHTML('beforeend' , `<div class=""><img class="img_last" src="${item.srcImg}" width="70" alt=""></div>`);
             })
-            let lastImg = $.querySelectorAll('.img_last');
-            lastImg.forEach((item) => {
-                item.addEventListener('click' ,(event) => {
-                    saveSrcLastImg = event.target.src;
-                    imgMainModal.src = saveSrcLastImg;
-                })
-            })
+            clickSrc()
             imgMainModal.src = saveSrcImgMain[0].srcImg;
         }
     })
 })
+
+function clickSrc () {
+    let lastImg = $.querySelectorAll('.img_last');
+    lastImg.forEach((item) => {
+        item.addEventListener('click' ,(event) => {
+            saveSrcLastImg = event.target.src;
+            imgMainModal.src = saveSrcLastImg;
+        })
+    })
+}

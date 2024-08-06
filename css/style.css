@@ -228,6 +228,27 @@ body {
     height: 25vw;
 }
 
+.anime_box_item {
+    transition: 300ms;
+}
+.anime_box_item:hover{
+    box-shadow: 0 0 30px #ffffff38 , 0 0 30px #ffffff38;
+    transform: translateY(-15px);
+}
+
+/* .anime_box_par {
+    animation: anime_item 1 3s forwards;
+} */
+
+@keyframes anime_item {
+    from{
+        
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
 @media only screen and (max-width:1400.80px) {
     .rounded_lg{
         border-radius: 1.4rem !important;

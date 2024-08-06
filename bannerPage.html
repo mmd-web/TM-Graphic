@@ -10,57 +10,61 @@
 <body class="background_color">
 
     <header class="">
-        <nav class="navbar_bg navbar navbar-expand-lg position-fixed w-100 px-lg-5 px-3 d-flex align-items-center justify-content-between py-4" style="z-index: 20;">
-            <a class="navbar-brand text-light d-flex align-items-center column-gap-2">
-                <img src="img/icon/Storefront.png" class="logo_size" alt="">
-                <span style="font-weight: 500;" class="fs-4">TM grathic</span>
-            </a>
-            <ul class="navbar-nav d-none d-sm-none d-lg-flex flex-row-reverse column-gap-5">
+        <nav class="navbar_bg navbar navbar-expand-lg position-fixed w-100 px-lg-5 px-3 d-flex align-items-center justify-content-between py-4"
+        style="z-index: 20;">
+        <a class="navbar-brand text-light d-flex align-items-center column-gap-2">
+            <img src="img/icon/Storefront.png" class="logo_size" alt="">
+            <span style="font-weight: 500;" class="fs-4">TM grathic</span>
+        </a>
+        <ul class="navbar-nav d-none d-sm-none d-lg-flex flex-row-reverse column-gap-5">
+            <!-- <li class="nav-item">
+                <a href="#" class="btn bg_color_basic text-light nav-link px-4 py-2">
+                    <img src="img/icon/User.png" alt="">
+                    <span>Sign in</span>
+                </a>
+            </li> -->
+            <li class="nav-item">
+                <a href="#" class="nav-link text-light">Connect a wallet</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-light">Rankings</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-light">Marketplace</a>
+            </li>
+        </ul>
+        <a href="#"
+            class="d-lg-flex d-none bg_color_basic text-light px-5 py-2 text-decoration-none rounded-2">about</a>
+
+        <button class="navbar-toggler border-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-box">
+            <img src="img/icon/Burger Menu.png" alt="">
+        </button>
+        <div class="offcanvas offcanvas-start d-lg-none d-flex d-sm-flex px-3 offcanvas-box" id="offcanvas-box"
+            style="height: 100vh;">
+            <div class="d-flex align-items-center mt-2 justify-content-between py-1">
+                <a class="navbar-brand text-light d-flex align-items-center column-gap-2">
+                    <img src="img/icon/Storefront-2.png" alt="">
+                    <span style="font-weight: 500;">TM grathic</span>
+                </a>
+                <button class="btn-close" data-bs-toggle="offcanvas"></button>
+            </div>
+            <hr style="width: 80%;" class="mx-auto shadow">
+            <ul class="navbar-nav d-flex row-gap-2 d-sm-flex d-lg-none column-gap-3 flex-column-reverse">
                 <!-- <li class="nav-item">
-                    <a href="#" class="btn bg_color_basic text-light nav-link px-4 py-2">
-                        <img src="img/icon/User.png" alt="">
-                        <span>Sign in</span>
-                    </a>
+                    <a href="#" class="btn background_color text-light nav-link">Sign in</a>
                 </li> -->
+                <!-- <hr style="width: 80%;" class="mx-auto shadow"> -->
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-light">Connect a wallet</a>
+                    <a href="#" class="nav-link text-light rounded-3 px-2">Connect a wallet</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-light">Rankings</a>
+                    <a href="#" class="nav-link text-light rounded-3 px-2">Rankings</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-light">Marketplace</a>
+                    <a href="#" class="nav-link text-light rounded-3 px-2 active">Marketplace</a>
                 </li>
             </ul>
-
-            <button class="navbar-toggler border-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-box">
-                <img src="img/icon/Burger Menu.png" alt="">
-            </button>
-            <div class="offcanvas offcanvas-start d-lg-none d-flex d-sm-flex px-3 offcanvas-box" id="offcanvas-box" style="height: 100vh;">
-                <div class="d-flex align-items-center mt-2 justify-content-between py-1">
-                    <a class="navbar-brand text-light d-flex align-items-center column-gap-2">
-                        <img src="img/icon/Storefront-2.png" alt="">
-                        <span style="font-weight: 500;">TM grathic</span>
-                    </a>
-                    <button class="btn-close" data-bs-toggle="offcanvas"></button>
-                </div>
-                <hr style="width: 80%;" class="mx-auto shadow">
-                <ul class="navbar-nav d-flex row-gap-2 d-sm-flex d-lg-none column-gap-3 flex-column-reverse">
-                    <!-- <li class="nav-item">
-                        <a href="#" class="btn background_color text-light nav-link">Sign in</a>
-                    </li> -->
-                    <!-- <hr style="width: 80%;" class="mx-auto shadow"> -->
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-light rounded-3 px-2">Connect a wallet</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-light rounded-3 px-2">Rankings</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-light rounded-3 px-2 active">Marketplace</a>
-                    </li>
-                </ul>
-            </div>
+        </div>
         </nav>
     </header>
 
@@ -78,12 +82,12 @@
             </div>
         </div> -->
 
-        <div class="content_logo_box background_color_two">
+        <div class="content_logo_box">
             <div class="browse_categories py-5 container-lg container-fluid">
                 <div class="row row-gap-5">
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Photo & Icon.png" style="width: 100% !important;" alt="">
                             </div>
@@ -92,9 +96,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Category Icon-2.png" style="width: 100% !important;" alt="">
                             </div>
@@ -103,9 +107,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Category Icon-2.png" style="width: 100% !important;" alt="">
                             </div>
@@ -114,9 +118,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Category Icon-3.png" style="width: 100% !important;" alt="">
                             </div>
@@ -125,9 +129,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Photo & Icon.png" style="width: 100% !important;" alt="">
                             </div>
@@ -136,9 +140,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Category Icon-2.png" style="width: 100% !important;" alt="">
                             </div>
@@ -147,9 +151,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Category Icon-2.png" style="width: 100% !important;" alt="">
                             </div>
@@ -158,9 +162,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Category Icon-3.png" style="width: 100% !important;" alt="">
                             </div>
@@ -169,9 +173,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Photo & Icon.png" style="width: 100% !important;" alt="">
                             </div>
@@ -180,9 +184,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Category Icon-2.png" style="width: 100% !important;" alt="">
                             </div>
@@ -191,9 +195,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Category Icon-2.png" style="width: 100% !important;" alt="">
                             </div>
@@ -202,9 +206,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Category Icon-3.png" style="width: 100% !important;" alt="">
                             </div>
@@ -213,9 +217,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Photo & Icon.png" style="width: 100% !important;" alt="">
                             </div>
@@ -224,9 +228,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Category Icon-2.png" style="width: 100% !important;" alt="">
                             </div>
@@ -235,9 +239,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Category Icon-2.png" style="width: 100% !important;" alt="">
                             </div>
@@ -246,9 +250,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Category Icon-3.png" style="width: 100% !important;" alt="">
                             </div>
@@ -257,9 +261,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Photo & Icon.png" style="width: 100% !important;" alt="">
                             </div>
@@ -268,9 +272,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Category Icon-2.png" style="width: 100% !important;" alt="">
                             </div>
@@ -279,9 +283,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Category Icon-2.png" style="width: 100% !important;" alt="">
                             </div>
@@ -290,9 +294,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="col-6 col-lg-3 parent_box_item">
                         <a href="#"
-                            class="background_color text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
+                            class="anime_box_item box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden">
                             <div>
                                 <img src="img/img-browse/Category Icon-3.png" style="width: 100% !important;" alt="">
                             </div>
@@ -305,8 +309,96 @@
             </div>
         </div>
     </main>
+
+    <footer class="background_color_two py-4">
+        <div class="row container-lg container-fluid mx-auto">
+            <div class="col-12 col-lg-4 mt-lg-0 mt-5">
+                <div class="px-xl-4 px-0">
+                    <a class="navbar-brand text-light d-flex align-items-center column-gap-2">
+                        <img src="img/icon/Storefront.png" class="logo_size" alt="">
+                        <span style="font-weight: 500;" class="fs-3">NFT Marketplace</span>
+                    </a>
+                    <ul class="list-group mt-4 row-gap-3">
+                        <li class="list-unstyled">
+                            <a href="#" class="text-decoration-none fs-5 text-light-50">NFT marketplace UI created
+                                with Anima for Figma</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="#" class="text-decoration-none fs-5 text-light-50">Join our community</a>
+                        </li>
+                        <li class="list-unstyled d-flex flex-row column-gap-3">
+                            <a href="#" class="text-decoration-none fs-5 text-light-50">
+                                <img src="img/icon/DiscordLogo.png" width="36" alt="">
+                            </a>
+                            <a href="#" class="text-decoration-none fs-5 text-light-50">
+                                <img src="img/icon/YoutubeLogo.png" width="36" alt="">
+                            </a>
+                            <a href="#" class="text-decoration-none fs-5 text-light-50">
+                                <img src="img/icon/TwitterLogo.png" width="36" alt="">
+                            </a>
+                            <a href="#" class="text-decoration-none fs-5 text-light-50">
+                                <img src="img/icon/InstagramLogo.png" width="36" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 mt-lg-0 mt-5">
+                <div class="px-xl-4 px-0">
+                    <div>
+                        <span class="fs-3 text-light">Explore</span>
+                    </div>
+                    <ul class="list-group mt-4 row-gap-3">
+                        <li class="list-unstyled">
+                            <a href="#" class="text-decoration-none fs-5 text-light-50">Marketplace</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="#" class="text-decoration-none fs-5 text-light-50">Rankings</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="#" class="text-decoration-none fs-5 text-light-50">Connect a wallet</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-lg-5 mt-lg-0 mt-5">
+                <div class="px-xl-4 px-0">
+                    <div>
+                        <span class="fs-3 text-light">Join our weekly digest</span>
+                    </div>
+                    <ul class="list-group mt-4">
+                        <li class="list-unstyled">
+                            <a href="#" class="text-decoration-none fs-5 text-light-50">Get exclusive promotions &
+                                updates straight to your inbox.</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <form class="input-group d-sm-flex d-none mt-4">
+                                <input type="text" class="form-control border-0 input_group_box"
+                                    placeholder="Enter Your Email Address">
+                                <button
+                                    class="input-group-text border-0 text-light fs-6 px-4 py-3 rounded-end-3 bg_color_basic d-flex flex-row justify-content-center align-items-center column-gap-lg-2 column-gap-1">
+                                    <img src="img/icon/EnvelopeSimple.png" width="20" alt="">
+                                    <span>Subscribe</span>
+                                </button>
+                            </form>
+                            <form class="d-sm-none d-flex flex-column mt-4 row-gap-4 w-100">
+                                <input type="text" class="form-control py-2 px-3 rounded-pill"
+                                    placeholder="Enter Your Email Address">
+                                <button
+                                    class="btn py-2 bg_color_basic text-light fs-6 rounded-pill d-flex flex-row justify-content-center align-items-center column-gap-lg-2 column-gap-1">
+                                    <img src="img/icon/EnvelopeSimple.png" width="20" alt="">
+                                    <span>Subscribe</span>
+                                </button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
     
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/anime.js"></script>
 </body>
 </html>
