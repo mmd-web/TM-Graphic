@@ -130,14 +130,6 @@ function clickSrc () {
     })
 }
 
-// boxVisitingCard.forEach((item) => {
-//     item.addEventListener('click' , (event) => {
-//         // imgVisitingCard.src = event.target.firstElementChild
-//         saveSrcCartVisitImg = item.firstElementChild.firstElementChild.src;
-//         imgVisitingCard.src = saveSrcCartVisitImg;
-//     })
-// })
-
 boxBannerCard.forEach((item) => {
     item.addEventListener('click' , (event) => {
         // imgVisitingCard.src = event.target.firstElementChild
