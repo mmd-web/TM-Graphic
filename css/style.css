@@ -236,6 +236,13 @@ body {
     transform: translateY(-15px);
 }
 
+.img-visiting-card {
+    width: 500px;
+}
+.img-banner-card {
+    width: 600px;
+}
+
 /* .anime_box_par {
     animation: anime_item 1 3s forwards;
 } */
@@ -389,6 +396,12 @@ body {
     }
     .height_modal {
         height: 200px !important;
+    }
+    .img-visiting-card {
+        width: 120%;
+    }
+    .img-banner-card {
+        width: 120%;
     }
 }
 
