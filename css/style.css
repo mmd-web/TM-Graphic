@@ -248,6 +248,13 @@ body {
     width: 75%;
 }
 
+.fs_title_modal {
+    font-size: 2.5rem;
+}
+.fs_sub_title_modal {
+    font-size: 1rem;
+}
+
 
 
 /* .anime_box_par {
@@ -269,6 +276,12 @@ body {
     }
     .modal_width {
         width: 900px !important;
+    }
+    .fs_title_modal {
+        font-size: 2rem;
+    }
+    .fs_sub_title_modal {
+        font-size: 0.933rem;
     }
 }
 
@@ -490,10 +503,13 @@ body {
     }    
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     .modal-xl {
         --bs-modal-width: 95%;
     }
+} */
+.modal-xl {
+    --bs-modal-width: 95%;
 }
 
 /* @media only screen and (min-width:575.80px) {
