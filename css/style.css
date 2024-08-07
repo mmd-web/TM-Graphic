@@ -237,11 +237,18 @@ body {
 }
 
 .img-visiting-card {
-    width: 500px;
+    width: 95%;
+    height: 90%;
 }
 .img-banner-card {
     width: 600px;
 }
+
+.w_modal_body {
+    width: 75%;
+}
+
+
 
 /* .anime_box_par {
     animation: anime_item 1 3s forwards;
@@ -398,10 +405,13 @@ body {
         height: 200px !important;
     }
     .img-visiting-card {
-        width: 120%;
+        width: 100%;
     }
     .img-banner-card {
         width: 120%;
+    }
+    .w_modal_body {
+        width: 100%;
     }
 }
 
@@ -477,8 +487,20 @@ body {
     }
     .w_lg_card_blog {
         width: 100%;
+    }    
+}
+
+@media (min-width: 1200px) {
+    .modal-xl {
+        --bs-modal-width: 95%;
     }
 }
+
+/* @media only screen and (min-width:575.80px) {
+    .w_modal_body {
+        width: 75%;
+    }
+} */
 
 /* 834 */
 /* 1280 */
