@@ -255,7 +255,10 @@ body {
     font-size: 1rem;
 }
 
-
+.body_size {
+    width: 100%;
+    height: 85%;
+}
 
 /* .anime_box_par {
     animation: anime_item 1 3s forwards;
@@ -356,6 +359,10 @@ body {
     }
     .vw_height_modal_img {
         height: 45vw;
+    }
+    .body_size {
+        width: 100%;
+        height: 80%;
     }
 }
 
