@@ -68,7 +68,7 @@ body {
 }
 
 .text-light-50{
-    color: #e4e4e4b4;
+    color: #e4e4e4e8;
 }
 
 .badge_style {
@@ -225,7 +225,7 @@ body {
 } */
 
 .vw_height_modal_img {
-    height: 25vw;
+    height: 30vw;
 }
 
 .anime_box_item {
@@ -237,15 +237,11 @@ body {
 }
 
 .img-visiting-card {
-    width: 95%;
+    width: 90%;
     height: 90%;
 }
 .img-banner-card {
     width: 600px;
-}
-
-.w_modal_body {
-    width: 75%;
 }
 
 .fs_title_modal {
@@ -258,6 +254,49 @@ body {
 .body_size {
     width: 100%;
     height: 85%;
+}
+
+.h_btn_modal {
+    height: 65%;
+}
+
+.scroll_id {
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.scroll_anime {
+    animation: scroll_effect 1 4s forwards;
+}
+
+.scroll_anime_end {
+    animation: scroll_effect_end 1 500ms forwards;
+}
+
+
+@keyframes scroll_effect {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    30% {
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scroll_effect_end {
+    to {
+        opacity: 0;
+    }
+    from {
+        opacity: 1;
+    }
 }
 
 /* .anime_box_par {
@@ -273,6 +312,16 @@ body {
     }
 }
 
+.modal_lg_one {
+    --bs-modal-width: 1000px;
+}
+
+@media only screen and (min-width:1600.80px) {
+    .modal_lg_one {
+        --bs-modal-width: 1300px;
+    }
+}
+
 @media only screen and (max-width:1400.80px) {
     .rounded_lg{
         border-radius: 1.4rem !important;
@@ -285,6 +334,9 @@ body {
     }
     .fs_sub_title_modal {
         font-size: 0.933rem;
+    }
+    .modal_lg_one {
+        --bs-modal-width: 900px;
     }
 }
 
@@ -358,7 +410,7 @@ body {
         height: 300px !important;
     }
     .vw_height_modal_img {
-        height: 45vw;
+        height: 60vw;
     }
     .body_size {
         width: 100%;
@@ -507,7 +559,10 @@ body {
     }
     .w_lg_card_blog {
         width: 100%;
-    }    
+    }
+    .vw_height_modal_img {
+        height:70vw;
+    }
 }
 
 /* @media (min-width: 1200px) {

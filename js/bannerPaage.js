@@ -2,10 +2,10 @@ let bannerBoxContent = document.querySelector('.banner_box_content');
 let imgBannerCard = document.getElementById('img-banner-card');
 
 let imgBannerCardList = [
-    {id : 1 , srcImg : 'img/img-browse/Photo & Icon.png'},
-    {id : 2 , srcImg : 'img/img-browse/Category Icon-2.png'},
-    {id : 3 , srcImg : 'img/img-browse/Category Icon-3.png'},
-    {id : 4 , srcImg : 'img/img-browse/Photo & Icon.png'},
+    {id : 1 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
+    {id : 2 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
+    {id : 3 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
+    {id : 4 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
     {id : 5 , srcImg : 'img/img-browse/Photo & Icon.png'},
     {id : 6 , srcImg : 'img/img-browse/Category Icon-2.png'},
     {id : 7 , srcImg : 'img/img-browse/Category Icon-3.png'},

@@ -20,7 +20,7 @@ let saveSrcCartBanner ;
 
 let imgTrandingList = {
     one : [
-        {id : 1 , srcImg : 'img/img-trending/Primary Photo Placeholder.png'},
+        {id : 1 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
         {id : 2 , srcImg : 'img/img-trending/Secondary Photo Placeholder.png'},
         {id : 3 , srcImg : 'img/img-trending/Secondary Photo Placeholder-1.png'},
     ],
@@ -82,7 +82,7 @@ imgBox.forEach((box) => {
     box.addEventListener('click' , (event) => {
         if (event.target.id === 'one') {
             let saveSrcImgMain = imgTrandingList.one.filter((src) => {
-                return src.srcImg === 'img/img-trending/Primary Photo Placeholder.png';
+                return src.srcImg === 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg';
             })
 
             textBoxImgModal.innerHTML = '';
