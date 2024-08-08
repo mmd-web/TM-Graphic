@@ -240,9 +240,9 @@ body {
     width: 90%;
     height: 90%;
 }
-.img-banner-card {
+/* .img-banner-card {
     width: 600px;
-}
+} */
 
 .fs_title_modal {
     font-size: 2.5rem;
@@ -333,7 +333,7 @@ body {
         font-size: 14px !important;
     }
     .title_top_creators{
-        max-width: 50% !important;
+        max-width: 75% !important;
     }
     .img_size_card_top_creators {
         width: 100% !important;
@@ -427,9 +427,9 @@ body {
     .img-visiting-card {
         width: 100%;
     }
-    .img-banner-card {
+    /* .img-banner-card {
         width: 120%;
-    }
+    } */
     .w_modal_body {
         width: 100%;
     }

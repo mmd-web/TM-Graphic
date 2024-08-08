@@ -8,7 +8,7 @@ let textBoxImgModal = $.querySelector('.text_box_img_modal');
 
 // let boxVisitingCard = $.querySelectorAll('#box-visiting-card');
 let imgVisitingCard = $.getElementById('img-visiting-card');
-let boxBannerCard = $.querySelectorAll('#banner_box_item');
+// let boxBannerCard = $.querySelectorAll('#banner_box_item');
 let imgBannerCard = $.getElementById('img-banner-card');
 
 let contentBoxVisitCarts = $.querySelector ('.content_box_visit_carts');
@@ -21,18 +21,18 @@ let saveSrcCartBanner ;
 let imgTrandingList = {
     one : [
         {id : 1 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
-        {id : 2 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
+        {id : 2 , srcImg : 'img/flat-design-teacher-s-day-template_23-2150254244.jpg'},
         {id : 3 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
     ],
     two : [
         {id : 4 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
-        {id : 5 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
+        {id : 5 , srcImg : 'img/flat-design-teacher-s-day-template_23-2150254244.jpg'},
         {id : 6 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
     ],
     three : [
-        {id : 7 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
+        {id : 7 , srcImg : 'img/flat-design-teacher-s-day-template_23-2150254244.jpg'},
         {id : 8 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
-        {id : 9 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
+        {id : 9 , srcImg : 'img/flat-design-teacher-s-day-template_23-2150254244.jpg'},
     ],
 }
 
@@ -138,10 +138,38 @@ function clickSrc () {
     })
 }
 
-boxBannerCard.forEach((item) => {
-    item.addEventListener('click' , (event) => {
-        // imgVisitingCard.src = event.target.firstElementChild
-        saveSrcCartBanner = item.firstElementChild.firstElementChild.src;
-        imgBannerCard.src = saveSrcCartBanner;
+let imgBannerCardList = [
+    {id : 1 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
+    {id : 2 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
+    {id : 3 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
+    {id : 4 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'}
+]
+
+let bannerBoxContent = document.querySelector('.banner_box_content');
+let textTitle = document.getElementById('title_banner');
+let textSubTitle = document.getElementById('sub_title_banner');
+let boxBannerCard ;
+imgBannerCardList.forEach((item) => {
+    // console.log(item.srcImg);
+    
+    bannerBoxContent.insertAdjacentHTML ('beforeend' , `<div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up"><a href="#" id="banner_box_item" data-bs-toggle="modal" data-bs-target="#bannerCard" class="anime_box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden"><div><img src="${item.srcImg}" style="width: 100% !important;" alt=""></div><div class="py-lg-3 py-xl-4 py-sm-4 py-3 container text-light fs-4"><span>${item.name}</span></div></a></div>`)
+
+    boxBannerCard = document.querySelectorAll('#banner_box_item');
+    boxBannerCard.forEach((banner) => {
+        banner.addEventListener('click' , (event) => {
+            // imgVisitingCard.src = event.target.firstElementChild
+            saveSrcCartBanner = banner.firstElementChild.firstElementChild.src;
+            imgBannerCard.src = saveSrcCartBanner;
+            textTitle.innerHTML = item.name;
+            textSubTitle.innerHTML = item.content
+        })
     })
 })
+
+// boxBannerCard.forEach((item) => {
+//     item.addEventListener('click' , (event) => {
+//         // imgVisitingCard.src = event.target.firstElementChild
+//         saveSrcCartBanner = item.firstElementChild.firstElementChild.src;
+//         imgBannerCard.src = saveSrcCartBanner;
+//     })
+// })
