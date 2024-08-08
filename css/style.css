@@ -260,58 +260,6 @@ body {
     height: 65%;
 }
 
-.scroll_id {
-    opacity: 0;
-    transform: translateY(10px);
-}
-
-.scroll_anime {
-    animation: scroll_effect 1 4s forwards;
-}
-
-.scroll_anime_end {
-    animation: scroll_effect_end 1 500ms forwards;
-}
-
-
-@keyframes scroll_effect {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-
-    30% {
-        transform: translateY(0);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes scroll_effect_end {
-    to {
-        opacity: 0;
-    }
-    from {
-        opacity: 1;
-    }
-}
-
-/* .anime_box_par {
-    animation: anime_item 1 3s forwards;
-} */
-
-@keyframes anime_item {
-    from{
-        
-    }
-    to{
-        transform: rotateY(360deg);
-    }
-}
-
 .modal_lg_one {
     --bs-modal-width: 1000px;
 }
