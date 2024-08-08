@@ -21,18 +21,18 @@ let saveSrcCartBanner ;
 let imgTrandingList = {
     one : [
         {id : 1 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
-        {id : 2 , srcImg : 'img/img-trending/Secondary Photo Placeholder.png'},
-        {id : 3 , srcImg : 'img/img-trending/Secondary Photo Placeholder-1.png'},
+        {id : 2 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
+        {id : 3 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
     ],
     two : [
-        {id : 4 , srcImg : 'img/img-trending/Primary Photo Placeholder-1.png'},
-        {id : 5 , srcImg : 'img/img-trending/Secondary Photo Placeholder-2.png'},
-        {id : 6 , srcImg : 'img/img-trending/Secondary Photo Placeholder-3.png'},
+        {id : 4 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
+        {id : 5 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
+        {id : 6 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
     ],
     three : [
-        {id : 7 , srcImg : 'img/img-trending/Primary Photo Placeholder-2.png'},
-        {id : 8 , srcImg : 'img/img-trending/Secondary Photo Placeholder-4.png'},
-        {id : 9 , srcImg : 'img/img-trending/Secondary Photo Placeholder-5.png'},
+        {id : 7 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
+        {id : 8 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
+        {id : 9 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
     ],
 }
 
@@ -55,7 +55,7 @@ let boxVisitingCard ;
 let saveSrcCartVisitImg ;
 let saveTitle ;
 imgVisitingCardList.forEach((item) => {
-    contentBoxVisitCarts.insertAdjacentHTML ('beforeend' , `<div class="col-lg-3 col-sm-6 col-12"><a href="#" id="${item.id}" data-bs-toggle="modal" data-bs-target="#visitingCard" class="box-visiting-card text-decoration-none anime_box_item position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4"><div class="img_box_size_card_top_creators"><img src="${item.srcImg}" class="img_size_card_top_creators" alt=""></div><div class=""><span class="text-light fs_creators_title">Keepitreal</span><span class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">TotalSalesL: <p class="text-light mb-0">34.53 ETH</p> </span></div></a></div>`);
+    contentBoxVisitCarts.insertAdjacentHTML ('beforeend' , `<div class="col-lg-3 col-sm-6 col-12" data-aos="fade-up"><a href="#" id="${item.id}" data-bs-toggle="modal" data-bs-target="#visitingCard" class="box-visiting-card text-decoration-none anime_box_item position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4"><div class="img_box_size_card_top_creators"><img src="${item.srcImg}" class="img_size_card_top_creators" alt=""></div><div class=""><span class="text-light fs_creators_title">Keepitreal</span><span class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">TotalSalesL: <p class="text-light mb-0">34.53 ETH</p> </span></div></a></div>`);
 
     boxVisitingCard = $.querySelectorAll('.box-visiting-card');
     boxVisitingCard.forEach((imgBox) => {
