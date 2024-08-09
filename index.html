@@ -14,12 +14,12 @@
     <div class="position-absolute h-100 background_color position-absolute w-100" style="height: max-content !important;">
         <header class="">
 
-            <nav class="navbar_bg navbar navbar-expand-lg position-fixed w-100 px-lg-5 px-3 d-flex align-items-center justify-content-between py-4" style="z-index: 20;">
+            <nav class="navbar_bg navbar navbar-expand-xxl position-fixed w-100 px-xxl-5 px-3 d-flex align-items-center justify-content-between py-4" style="z-index: 20;">
                 <a href="#header_content" class="navbar-brand text-light d-flex align-items-center column-gap-2">
                     <img src="img/icon/Storefront.png" class="logo_size" alt="">
                     <span style="font-weight: 500;" class="fs-4">TM grathic</span>
                 </a>
-                <ul class="navbar-nav d-none d-sm-none d-lg-flex flex-row-reverse column-gap-5">
+                <ul class="navbar-nav d-none d-sm-none d-xxl-flex flex-row-reverse column-gap-5">
                     <!-- <li class="nav-item">
                         <a href="#" class="btn bg_color_basic text-light nav-link px-4 py-2">
                             <img src="img/icon/User.png" alt="">
@@ -42,13 +42,12 @@
                         <a href="#tranding" class="nav-link text-light">Trending Collection</a>
                     </li>
                 </ul>
-                <a href="#"class="d-lg-flex d-none bg_color_basic text-light px-5 py-2 text-decoration-none rounded-2">about</a>
+                <a href="#"class="d-xxl-flex d-none bg_color_basic text-light px-5 py-2 text-decoration-none rounded-2">about</a>
 
                 <button class="navbar-toggler border-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-box">
                     <img src="img/icon/Burger Menu.png" alt="">
                 </button>
-                <div class="offcanvas offcanvas-start d-lg-none d-flex d-sm-flex px-3 offcanvas-box" id="offcanvas-box"
-                    style="height: 100vh;">
+                <div class="offcanvas offcanvas-start d-xxl-none d-flex d-sm-flex px-3 offcanvas-box" id="offcanvas-box" style="height: 100vh;">
                     <div class="d-flex align-items-center mt-2 justify-content-between py-1">
                         <a class="navbar-brand text-light d-flex align-items-center column-gap-2">
                             <img src="img/icon/Storefront-2.png" alt="">
@@ -57,7 +56,7 @@
                         <button class="btn-close" data-bs-toggle="offcanvas"></button>
                     </div>
                     <hr style="width: 80%;" class="mx-auto shadow">
-                    <ul class="navbar-nav d-flex row-gap-2 d-sm-flex d-lg-none column-gap-3 flex-column-reverse">
+                    <ul class="navbar-nav d-flex row-gap-2 d-sm-flex d-xxl-none column-gap-3 flex-column-reverse">
                         <!-- <li class="nav-item">
                             <a href="#" class="btn background_color text-light nav-link">Sign in</a>
                         </li> -->
@@ -243,13 +242,13 @@
                                 <div class="col-xl-9 col-lg-8 col-12 border_modal">
                                     <div class="">
                                         <div class="vw_height_modal_img d-flex justify-content-center align-items-center py-lg-0 py-4">
-                                            <img id="img_modal_discoverMore" src="" style="height: 100%;" alt="">
+                                            <img id="img_modal_Logos" src="" style="height: 100%;" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-xl-3 col-lg-4 col-12">
                                     <div class="py-4 height_modal">
-                                        <div class="row row-gap-3 mx-auto text_box_img_modal_disscover">
+                                        <div class="row row-gap-3 mx-auto text_box_img_modal_Logos">
                                             <!-- <div class="col-6">
                                                 <img class="img_last" src="img/img-trending/Secondary Photo Placeholder.png" width="150" alt="">
                                             </div>
@@ -283,9 +282,13 @@
                 </div>
             </div>
 
-            <div id="tranding" class="tranding position-relative container-lg container-fluid mt-5">
+            <div id="tranding" class="Photomontage position-relative container-lg container-fluid mt-5">
                 <div class="" data-aos="fade-up">
-                    <span class="fs-2 title_sub_text">Trending Collection</span>
+                    <!-- <span class="fs-2 title_sub_text">Trending Collection</span> -->
+                    <button class="title_text_hover" data-text="Awesome">
+                        <span class="actual-text">&nbsp;Photomontage&nbsp;</span>
+                        <span aria-hidden="true" class="hover-text">&nbsp;Photomontage&nbsp;</span>
+                    </button>
                     <p class="fs-5 sub_text text-light-50">Checkout our weekly updated trending collection.</p>
                 </div>
 
@@ -384,15 +387,19 @@
                 </div>
             </div>
 
-            <div id="top_creators" class="top_creators mt-5 container-lg container-fluid">
+            <div id="top_creators" class="visiting_card mt-5 container-lg container-fluid">
                 <div class="d-flex flex-row justify-content-between align-items-center" data-aos="fade-up">
-                    <div class="title_top_creators">
-                        <span class="fs-2 title_sub_text">Top creators</span>
+                    <div class="title_visiting_card">
+                        <!-- <span class="fs-2 title_sub_text">Top creators</span> -->
+                        <button class="title_text_hover" data-text="Awesome">
+                            <span class="actual-text">&nbsp;visiting&nbsp;Card&nbsp;</span>
+                            <span aria-hidden="true" class="hover-text">&nbsp;visiting&nbsp;Card&nbsp;</span>
+                        </button>
                         <p class="fs-5 sub_text text-light-50">Checkout Top Rated Creators on the NFT Marketplace</p>
                     </div>
                 </div>
 
-                <div class="items_top_creators mt-4" data-aos="fade-up">
+                <div class="items_visiting_card mt-4" data-aos="fade-up">
                     <div class="row row-gap-xl-4 row-gap-3 content_box_visit_carts">
 
                     </div>
@@ -400,13 +407,17 @@
 
             </div>
 
-            <div id="browse_categories" class="browse_categories mt-5 container-lg container-fluid">
+            <div id="browse_categories" class="Banners mt-5 container-lg container-fluid">
                 <!-- <div class="py-4">
                     <span class="fs-2 title_sub_text">Browse Categories</span>
                 </div> -->
                 <div class="d-flex py-4 flex-row justify-content-between align-items-center" data-aos="fade-up">
-                    <div class="title_top_creators">
-                        <span class="fs-2 title_sub_text">Browse Categories</span>
+                    <div class="title_visiting_card">
+                        <!-- <span class="fs-2 title_sub_text">Browse Categories</span> -->
+                        <button class="title_text_hover" data-text="Awesome">
+                            <span class="actual-text">&nbsp;Banners&nbsp;</span>
+                            <span aria-hidden="true" class="hover-text">&nbsp;Banners&nbsp;</span>
+                        </button>
                         <p class="fs-5 sub_text text-light-50">Checkout Top Rated Creators on the NFT Marketplace</p>
                     </div>
                     <div class="btn_view_ankings d-sm-flex d-none">
@@ -473,10 +484,14 @@
                 </div>
             </div>
 
-            <div id="discover_more" class="discover_more mt-5 container-lg container-fluid">
+            <div id="discover_more" class="Logos mt-5 container-lg container-fluid">
                 <div class="d-flex flex-row justify-content-between align-items-center" data-aos="fade-up">
-                    <div class="title_top_creators_2">
-                        <span class="fs-2 title_sub_text">Discover More NFTs</span>
+                    <div class="title_visiting_card_2">
+                        <!-- <span class="fs-2 title_sub_text">Discover More NFTs</span> -->
+                        <button class="title_text_hover" data-text="Awesome">
+                            <span class="actual-text">&nbsp;Logos&nbsp;</span>
+                            <span aria-hidden="true" class="hover-text">&nbsp;Logos&nbsp;</span>
+                        </button>
                         <p class="fs-5 sub_text text-light-50">Explore new trending NFTs</p>
                     </div>
                 </div>
@@ -485,7 +500,7 @@
                     <div class="row row-gap-3">
                         <div class="col-12 col-lg-4 col-sm-6" data-aos="fade-up">
                             <div class="background_color_two rounded-4 overflow-hidden">
-                                <a href="#" id="discoverMore_boxs" data-bs-toggle="modal" data-bs-target="#discoverMore" class="one text-decoration-none text-light">
+                                <a href="#" id="LogosBox" data-bs-toggle="modal" data-bs-target="#discoverMore" class="one text-decoration-none text-light">
                                     <div>
                                         <img src="img/img-trending/Image Placeholder.png"
                                             style="width: 100% !important;" alt="">
@@ -516,7 +531,7 @@
                         </div>
                         <div class="col-12 col-lg-4 col-sm-6" data-aos="fade-up">
                             <div class="background_color_two rounded-4 overflow-hidden">
-                                <a href="#" id="discoverMore_boxs" data-bs-toggle="modal" data-bs-target="#discoverMore" class="two text-decoration-none text-light">
+                                <a href="#" id="LogosBox" data-bs-toggle="modal" data-bs-target="#discoverMore" class="two text-decoration-none text-light">
                                     <div>
                                         <img src="img/img-trending/Image Placeholder-3.png"
                                             style="width: 100% !important;" alt="">
@@ -547,7 +562,7 @@
                         </div>
                         <div class="col-12 d-block d-sm-none d-lg-block col-lg-4 col-sm-6" data-aos="fade-up">
                             <div class="background_color_two rounded-4 overflow-hidden">
-                                <a href="#" id="discoverMore_boxs" data-bs-toggle="modal" data-bs-target="#discoverMore" class="three text-decoration-none text-light">
+                                <a href="#" id="LogosBox" data-bs-toggle="modal" data-bs-target="#discoverMore" class="three text-decoration-none text-light">
                                     <div>
                                         <img src="img/img-trending/Image Placeholder-2.png"
                                             style="width: 100% !important;" alt="">
@@ -581,9 +596,13 @@
 
             </div>
 
-            <div id="works_box" class="works_box mt-5 container-lg container-fluid">
+            <div id="works_box" class="Blogs mt-5 container-lg container-fluid">
                 <div data-aos="fade-up">
-                    <span class="fs-2 title_sub_text">How it works</span>
+                    <!-- <span class="fs-2 title_sub_text">How it works</span> -->
+                    <button class="title_text_hover" data-text="Awesome">
+                        <span class="actual-text">&nbsp;Blogs&nbsp;</span>
+                        <span aria-hidden="true" class="hover-text">&nbsp;Blogs&nbsp;</span>
+                    </button>
                     <p class="fs-5 sub_text text-light-50">Find out how to get started</p>
                 </div>
 
