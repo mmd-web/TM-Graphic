@@ -14,9 +14,8 @@
     <div class="position-absolute h-100 background_color position-absolute w-100" style="height: max-content !important;">
         <header class="">
 
-            <nav class="navbar_bg navbar navbar-expand-lg position-fixed w-100 px-lg-5 px-3 d-flex align-items-center justify-content-between py-4"
-                style="z-index: 20;">
-                <a class="navbar-brand text-light d-flex align-items-center column-gap-2">
+            <nav class="navbar_bg navbar navbar-expand-lg position-fixed w-100 px-lg-5 px-3 d-flex align-items-center justify-content-between py-4" style="z-index: 20;">
+                <a href="#header_content" class="navbar-brand text-light d-flex align-items-center column-gap-2">
                     <img src="img/icon/Storefront.png" class="logo_size" alt="">
                     <span style="font-weight: 500;" class="fs-4">TM grathic</span>
                 </a>
@@ -28,17 +27,22 @@
                         </a>
                     </li> -->
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-light">Connect a wallet</a>
+                        <a href="#works_box" class="nav-link text-light">How it works</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-light">Rankings</a>
+                        <a href="#discover_more" class="nav-link text-light">Discover More NFTs</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-light">Marketplace</a>
+                        <a href="#browse_categories" class="nav-link text-light">Browse Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#top_creators" class="nav-link text-light">Top creators</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tranding" class="nav-link text-light">Trending Collection</a>
                     </li>
                 </ul>
-                <a href="#"
-                    class="d-lg-flex d-none bg_color_basic text-light px-5 py-2 text-decoration-none rounded-2">about</a>
+                <a href="#"class="d-lg-flex d-none bg_color_basic text-light px-5 py-2 text-decoration-none rounded-2">about</a>
 
                 <button class="navbar-toggler border-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-box">
                     <img src="img/icon/Burger Menu.png" alt="">
@@ -58,6 +62,11 @@
                             <a href="#" class="btn background_color text-light nav-link">Sign in</a>
                         </li> -->
                         <!-- <hr style="width: 80%;" class="mx-auto shadow"> -->
+                        <!-- <a href="#"class="d-flex btn_about text-light px-2 py-2 text-decoration-none rounded-2">about</a> -->
+                        <li class="nav-item">
+                            <a href="#"class="d-flex btn_about text-light px-2 py-2 text-decoration-none rounded-2">about</a>
+                        </li>
+                        <hr style="width: 80%;" class="mx-auto shadow">
                         <li class="nav-item">
                             <a href="#" class="nav-link text-light rounded-3 px-2">Connect a wallet</a>
                         </li>
@@ -71,7 +80,7 @@
                 </div>
             </nav>
 
-            <div class="header_content position-relative">
+            <div id="header_content" class="header_content position-relative">
                 <!-- <div class="bg_gradient_magic"></div> -->
             </div>
 
@@ -167,7 +176,6 @@
                 </div>
             </div>
             
-
             <!-- <div class="modal fade" tabindex="-1" id="bannerCard">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content background_color_two">
@@ -222,7 +230,60 @@
                 </div>
             </div>
 
-            <div class="tranding position-relative container-lg container-fluid mt-5">
+            <div class="modal fade text-light" id="discoverMore" tabindex="-1" aria-labelledby="exampleModalLabel">
+                <div class="modal-dialog modal-dialog-centered modal_lg_one modal-dialog-scrollable">
+                    <div class="modal-content background_color_two">
+                        <div class="modal-header" style="border-color: #c2c2c276;">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="row">
+                                <div class="col-xl-9 col-lg-8 col-12 border_modal">
+                                    <div class="">
+                                        <div class="vw_height_modal_img d-flex justify-content-center align-items-center py-lg-0 py-4">
+                                            <img id="img_modal_discoverMore" src="" style="height: 100%;" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-12">
+                                    <div class="py-4 height_modal">
+                                        <div class="row row-gap-3 mx-auto text_box_img_modal_disscover">
+                                            <!-- <div class="col-6">
+                                                <img class="img_last" src="img/img-trending/Secondary Photo Placeholder.png" width="150" alt="">
+                                            </div>
+                                            <div class="col-6">
+                                                <img class="img_last" src="img/img-trending/Secondary Photo Placeholder.png" width="150" alt="">
+                                            </div>
+                                            <div class="col-6">
+                                                <img class="img_last" src="img/img-trending/Secondary Photo Placeholder.png" width="150" alt="">
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer" style="border-color: #c2c2c276;">
+                            <div class="row justify-content-between w-100 row-gap-5 row-gap-lg-0">
+                                <div class="col-lg-6 col-12 box_img_modal_discover d-flex flex-row justify-content-center align-items-center column-gap-4">
+
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <div
+                                        class="d-flex justify-content-lg-end justify-content-center align-items-center w-100 h-100">
+                                        <button type="button" class="btn btn-secondary px-5"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tranding" class="tranding position-relative container-lg container-fluid mt-5">
                 <div class="" data-aos="fade-up">
                     <span class="fs-2 title_sub_text">Trending Collection</span>
                     <p class="fs-5 sub_text text-light-50">Checkout our weekly updated trending collection.</p>
@@ -323,7 +384,7 @@
                 </div>
             </div>
 
-            <div class="top_creators mt-5 container-lg container-fluid">
+            <div id="top_creators" class="top_creators mt-5 container-lg container-fluid">
                 <div class="d-flex flex-row justify-content-between align-items-center" data-aos="fade-up">
                     <div class="title_top_creators">
                         <span class="fs-2 title_sub_text">Top creators</span>
@@ -339,7 +400,7 @@
 
             </div>
 
-            <div class="browse_categories mt-5 container-lg container-fluid">
+            <div id="browse_categories" class="browse_categories mt-5 container-lg container-fluid">
                 <!-- <div class="py-4">
                     <span class="fs-2 title_sub_text">Browse Categories</span>
                 </div> -->
@@ -412,7 +473,7 @@
                 </div>
             </div>
 
-            <div class="discover_more mt-5 container-lg container-fluid">
+            <div id="discover_more" class="discover_more mt-5 container-lg container-fluid">
                 <div class="d-flex flex-row justify-content-between align-items-center" data-aos="fade-up">
                     <div class="title_top_creators_2">
                         <span class="fs-2 title_sub_text">Discover More NFTs</span>
@@ -424,7 +485,7 @@
                     <div class="row row-gap-3">
                         <div class="col-12 col-lg-4 col-sm-6" data-aos="fade-up">
                             <div class="background_color_two rounded-4 overflow-hidden">
-                                <a href="#" class="text-decoration-none text-light">
+                                <a href="#" id="discoverMore_boxs" data-bs-toggle="modal" data-bs-target="#discoverMore" class="one text-decoration-none text-light">
                                     <div>
                                         <img src="img/img-trending/Image Placeholder.png"
                                             style="width: 100% !important;" alt="">
@@ -455,9 +516,9 @@
                         </div>
                         <div class="col-12 col-lg-4 col-sm-6" data-aos="fade-up">
                             <div class="background_color_two rounded-4 overflow-hidden">
-                                <a href="#" class="text-decoration-none text-light">
+                                <a href="#" id="discoverMore_boxs" data-bs-toggle="modal" data-bs-target="#discoverMore" class="two text-decoration-none text-light">
                                     <div>
-                                        <img src="img/img-trending/Image Placeholder.png"
+                                        <img src="img/img-trending/Image Placeholder-3.png"
                                             style="width: 100% !important;" alt="">
                                     </div>
                                     <div class="py-3 px-3 d-flex flex-column row-gap-3">
@@ -486,9 +547,9 @@
                         </div>
                         <div class="col-12 d-block d-sm-none d-lg-block col-lg-4 col-sm-6" data-aos="fade-up">
                             <div class="background_color_two rounded-4 overflow-hidden">
-                                <a href="#" class="text-decoration-none text-light">
+                                <a href="#" id="discoverMore_boxs" data-bs-toggle="modal" data-bs-target="#discoverMore" class="three text-decoration-none text-light">
                                     <div>
-                                        <img src="img/img-trending/Image Placeholder.png"
+                                        <img src="img/img-trending/Image Placeholder-2.png"
                                             style="width: 100% !important;" alt="">
                                     </div>
                                     <div class="py-3 px-3 d-flex flex-column row-gap-3">
@@ -520,7 +581,7 @@
 
             </div>
 
-            <div class="works_box mt-5 container-lg container-fluid">
+            <div id="works_box" class="works_box mt-5 container-lg container-fluid">
                 <div data-aos="fade-up">
                     <span class="fs-2 title_sub_text">How it works</span>
                     <p class="fs-5 sub_text text-light-50">Find out how to get started</p>

@@ -63,7 +63,7 @@ body {
     color: var(--Basic_color);
 }
 
-.nav-link.active{
+.nav-link:hover{
     background-color: var(--Background);
 }
 
@@ -262,6 +262,26 @@ body {
 
 .modal_lg_one {
     --bs-modal-width: 1000px;
+}
+
+.btn_about {
+    transition: background 300ms;
+}
+
+.btn_about:hover {
+    background-color: #2B2B2B;
+}
+
+.btn_header {
+    transition: background 300ms;
+}
+
+.btn_header:hover {
+    background-color: #2B2B2B;
+}
+
+.border_navLink {
+    border-bottom: 1px solid #3B3B3B;
 }
 
 @media only screen and (min-width:1600.80px) {

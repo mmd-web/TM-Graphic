@@ -1,6 +1,6 @@
 let $ = document;
 
-let imgBox = $.querySelectorAll ('.img_one');
+let imgBox = $.querySelectorAll('.img_one');
 let imgMainModal = $.getElementById('img_main_modal');
 let imgLastModal = $.querySelectorAll('.img_last');
 let imgBoxLastModal = $.querySelector('.box_img_last_modal');
@@ -11,55 +11,55 @@ let imgVisitingCard = $.getElementById('img-visiting-card');
 // let boxBannerCard = $.querySelectorAll('#banner_box_item');
 let imgBannerCard = $.getElementById('img-banner-card');
 
-let contentBoxVisitCarts = $.querySelector ('.content_box_visit_carts');
+let contentBoxVisitCarts = $.querySelector('.content_box_visit_carts');
 
 let subTitleModla = $.querySelector('.sub_title_modla');
 let titleModla = $.querySelector('.title_modla');
 
-let saveSrcCartBanner ;
+let saveSrcCartBanner;
 
 let imgTrandingList = {
-    one : [
-        {id : 1 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
-        {id : 2 , srcImg : 'img/flat-design-teacher-s-day-template_23-2150254244.jpg'},
-        {id : 3 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
+    one: [
+        { id: 1, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' },
+        { id: 2, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg' },
+        { id: 3, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' },
     ],
-    two : [
-        {id : 4 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
-        {id : 5 , srcImg : 'img/flat-design-teacher-s-day-template_23-2150254244.jpg'},
-        {id : 6 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
+    two: [
+        { id: 4, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' },
+        { id: 5, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg' },
+        { id: 6, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' },
     ],
-    three : [
-        {id : 7 , srcImg : 'img/flat-design-teacher-s-day-template_23-2150254244.jpg'},
-        {id : 8 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg'},
-        {id : 9 , srcImg : 'img/flat-design-teacher-s-day-template_23-2150254244.jpg'},
+    three: [
+        { id: 7, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg' },
+        { id: 8, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' },
+        { id: 9, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg' },
     ],
 }
 
 let imgVisitingCardList = [
-    {id : 1, srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , title : 'mahdi abbasi' , subTitle : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?'},
-    {id : 2, srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , title : 'ali abbasi' , subTitle : 'Lorem ipsum dolor sit'},
-    {id : 3, srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , title : 'reza abbasi' , subTitle : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?'},
-    {id : 4, srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , title : 'alireza abbasi' , subTitle : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?'},
-    {id : 5, srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , title : 'adfd abbasi' , subTitle : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?'},
-    {id : 6, srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , title : 'mxcvfi abbasi' , subTitle : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?'},
-    {id : 7, srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , title : 'mah]gg abbasi' , subTitle : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?'},
-    {id : 8, srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , title : 'mahdb[ki abbasi' , subTitle : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?'},
-    {id : 9, srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , title : 'mahdskidfgi abbasi' , subTitle : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?'},
-    {id : 10, srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , title : 'mahdiuiul abbasi' , subTitle : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?'},
-    {id : 11, srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , title : 'mahdxcsi abbasi' , subTitle : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?'},
-    {id : 12, srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , title : 'mahddfdfi abbasi' , subTitle : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?'}
+    { id: 1, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'mahdi abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 2, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'ali abbasi', subTitle: 'Lorem ipsum dolor sit' },
+    { id: 3, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'reza abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 4, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'alireza abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 5, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'adfd abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 6, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'mxcvfi abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 7, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'mah]gg abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 8, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'mahdb[ki abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 9, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'mahdskidfgi abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 10, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'mahdiuiul abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 11, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'mahdxcsi abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 12, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'mahddfdfi abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' }
 ]
 
-let boxVisitingCard ;
-let saveSrcCartVisitImg ;
-let saveTitle ;
+let boxVisitingCard;
+let saveSrcCartVisitImg;
+let saveTitle;
 imgVisitingCardList.forEach((item) => {
-    contentBoxVisitCarts.insertAdjacentHTML ('beforeend' , `<div class="col-lg-3 col-sm-6 col-12" data-aos="fade-up"><a href="#" id="${item.id}" data-bs-toggle="modal" data-bs-target="#visitingCard" class="box-visiting-card text-decoration-none anime_box_item position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4"><div class="img_box_size_card_top_creators"><img src="${item.srcImg}" class="img_size_card_top_creators" alt=""></div><div class=""><span class="text-light fs_creators_title">Keepitreal</span><span class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">TotalSalesL: <p class="text-light mb-0">34.53 ETH</p> </span></div></a></div>`);
+    contentBoxVisitCarts.insertAdjacentHTML('beforeend', `<div class="col-lg-3 col-sm-6 col-12" data-aos="fade-up"><a href="#" id="${item.id}" data-bs-toggle="modal" data-bs-target="#visitingCard" class="box-visiting-card text-decoration-none anime_box_item position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4"><div class="img_box_size_card_top_creators"><img src="${item.srcImg}" class="img_size_card_top_creators" alt=""></div><div class=""><span class="text-light fs_creators_title">Keepitreal</span><span class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">TotalSalesL: <p class="text-light mb-0">34.53 ETH</p> </span></div></a></div>`);
 
     boxVisitingCard = $.querySelectorAll('.box-visiting-card');
     boxVisitingCard.forEach((imgBox) => {
-        imgBox.addEventListener('click' , (event) => {
+        imgBox.addEventListener('click', (event) => {
             // imgVisitingCard.src = event.target.firstElementChild
             saveSrcCartVisitImg = imgBox.firstElementChild.firstElementChild.src;
             imgVisitingCard.src = saveSrcCartVisitImg;
@@ -72,25 +72,25 @@ imgVisitingCardList.forEach((item) => {
 })
 
 let textImgTrandingList = {
-    one : {txt : 'lorem text lorem text lorem text lorem text lorem text lorem text lorem text lorem text'},
-    two : {txt : 'lorem text lorem text lorem text lorem text lorem text lorem text lorem text lorem text'},
-    three : {txt : 'lorem text lorem text lorem text lorem text lorem text lorem text lorem text lorem text'},
+    one: { txt: 'lorem text lorem text lorem text lorem text lorem text lorem text lorem text lorem text' },
+    two: { txt: 'lorem text lorem text lorem text lorem text lorem text lorem text lorem text lorem text' },
+    three: { txt: 'lorem text lorem text lorem text lorem text lorem text lorem text lorem text lorem text' },
 }
 
-let saveSrcLastImg ;
+let saveSrcLastImg;
 imgBox.forEach((box) => {
-    box.addEventListener('click' , (event) => {
+    box.addEventListener('click', (event) => {
         if (event.target.id === 'one') {
             let saveSrcImgMain = imgTrandingList.one.filter((src) => {
                 return src.srcImg === 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg';
             })
 
             textBoxImgModal.innerHTML = '';
-            textBoxImgModal.insertAdjacentHTML('beforeend' , `<span>${textImgTrandingList.one.txt}</span>`);
+            textBoxImgModal.insertAdjacentHTML('beforeend', `<span>${textImgTrandingList.one.txt}</span>`);
 
             imgBoxLastModal.innerHTML = '';
             imgTrandingList.one.forEach((item) => {
-                imgBoxLastModal.insertAdjacentHTML('beforeend' , `<div class=""><img class="img_last" src="${item.srcImg}" width="70" alt=""></div>`);
+                imgBoxLastModal.insertAdjacentHTML('beforeend', `<div class=""><img class="img_last" src="${item.srcImg}" width="70" alt=""></div>`);
             })
             clickSrc()
             imgMainModal.src = saveSrcImgMain[0].srcImg;
@@ -101,11 +101,11 @@ imgBox.forEach((box) => {
             })
 
             textBoxImgModal.innerHTML = '';
-            textBoxImgModal.insertAdjacentHTML('beforeend' , `<span>${textImgTrandingList.one.txt}</span>`);
+            textBoxImgModal.insertAdjacentHTML('beforeend', `<span>${textImgTrandingList.one.txt}</span>`);
 
             imgBoxLastModal.innerHTML = '';
             imgTrandingList.two.forEach((item) => {
-                imgBoxLastModal.insertAdjacentHTML('beforeend' , `<div class=""><img class="img_last" src="${item.srcImg}" width="70" alt=""></div>`);
+                imgBoxLastModal.insertAdjacentHTML('beforeend', `<div class=""><img class="img_last" src="${item.srcImg}" width="70" alt=""></div>`);
             })
             clickSrc()
             imgMainModal.src = saveSrcImgMain[0].srcImg;
@@ -116,11 +116,11 @@ imgBox.forEach((box) => {
             })
 
             textBoxImgModal.innerHTML = '';
-            textBoxImgModal.insertAdjacentHTML('beforeend' , `<span>${textImgTrandingList.one.txt}</span>`);
+            textBoxImgModal.insertAdjacentHTML('beforeend', `<span>${textImgTrandingList.one.txt}</span>`);
 
             imgBoxLastModal.innerHTML = '';
             imgTrandingList.three.forEach((item) => {
-                imgBoxLastModal.insertAdjacentHTML('beforeend' , `<div class=""><img class="img_last" src="${item.srcImg}" width="70" alt=""></div>`);
+                imgBoxLastModal.insertAdjacentHTML('beforeend', `<div class=""><img class="img_last" src="${item.srcImg}" width="70" alt=""></div>`);
             })
             clickSrc()
             imgMainModal.src = saveSrcImgMain[0].srcImg;
@@ -128,10 +128,10 @@ imgBox.forEach((box) => {
     })
 })
 
-function clickSrc () {
+function clickSrc() {
     let lastImg = $.querySelectorAll('.img_last');
     lastImg.forEach((item) => {
-        item.addEventListener('click' ,(event) => {
+        item.addEventListener('click', (event) => {
             saveSrcLastImg = event.target.src;
             imgMainModal.src = saveSrcLastImg;
         })
@@ -139,24 +139,24 @@ function clickSrc () {
 }
 
 let imgBannerCardList = [
-    {id : 1 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 2 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 3 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 4 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'}
+    { id: 1, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'hello', content: 'lorem hello world lorem hello world lorem hello world' },
+    { id: 2, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'hello', content: 'lorem hello world lorem hello world lorem hello world' },
+    { id: 3, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'hello', content: 'lorem hello world lorem hello world lorem hello world' },
+    { id: 4, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'hello', content: 'lorem hello world lorem hello world lorem hello world' }
 ]
 
 let bannerBoxContent = document.querySelector('.banner_box_content');
 let textTitle = document.getElementById('title_banner');
 let textSubTitle = document.getElementById('sub_title_banner');
-let boxBannerCard ;
+let boxBannerCard;
 imgBannerCardList.forEach((item) => {
     // console.log(item.srcImg);
-    
-    bannerBoxContent.insertAdjacentHTML ('beforeend' , `<div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up"><a href="#" id="banner_box_item" data-bs-toggle="modal" data-bs-target="#bannerCard" class="anime_box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden"><div><img src="${item.srcImg}" style="width: 100% !important;" alt=""></div><div class="py-lg-3 py-xl-4 py-sm-4 py-3 container text-light fs-4"><span>${item.name}</span></div></a></div>`)
+
+    bannerBoxContent.insertAdjacentHTML('beforeend', `<div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up"><a href="#" id="banner_box_item" data-bs-toggle="modal" data-bs-target="#bannerCard" class="anime_box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden"><div><img src="${item.srcImg}" style="width: 100% !important;" alt=""></div><div class="py-lg-3 py-xl-4 py-sm-4 py-3 container text-light fs-4"><span>${item.name}</span></div></a></div>`)
 
     boxBannerCard = document.querySelectorAll('#banner_box_item');
     boxBannerCard.forEach((banner) => {
-        banner.addEventListener('click' , (event) => {
+        banner.addEventListener('click', (event) => {
             // imgVisitingCard.src = event.target.firstElementChild
             saveSrcCartBanner = banner.firstElementChild.firstElementChild.src;
             imgBannerCard.src = saveSrcCartBanner;
@@ -166,10 +166,113 @@ imgBannerCardList.forEach((item) => {
     })
 })
 
-// boxBannerCard.forEach((item) => {
-//     item.addEventListener('click' , (event) => {
-//         // imgVisitingCard.src = event.target.firstElementChild
-//         saveSrcCartBanner = item.firstElementChild.firstElementChild.src;
-//         imgBannerCard.src = saveSrcCartBanner;
-//     })
-// })
+let discoverMoreBoxs = $.querySelectorAll('#discoverMore_boxs');
+let imgModalDissmore = $.getElementById('img_modal_discoverMore');
+let box_img_modal_discover = $.querySelector('.box_img_modal_discover');
+let textBoxImgModaldissCover = $.querySelector('.text_box_img_modal_disscover');
+let saveValueImgDissmore;
+
+let imgModalDiscoverMoreList = {
+    one: [
+        { id: 1, srcImg: 'img/img-trending/Image Placeholder.png' },
+        { id: 2, srcImg: 'img/img-trending/Image Placeholder-2.png' },
+        { id: 3, srcImg: 'img/img-trending/Image Placeholder-3.png' },
+    ],
+    two: [
+        { id: 4, srcImg: 'img/img-trending/Image Placeholder-3.png' },
+        { id: 5, srcImg: 'img/img-trending/Image Placeholder.png' },
+        { id: 6, srcImg: 'img/img-trending/Image Placeholder-2.png' },
+    ],
+    three: [
+        { id: 7, srcImg: 'img/img-trending/Image Placeholder-2.png' },
+        { id: 8, srcImg: 'img/img-trending/Image Placeholder-3.png' },
+        { id: 9, srcImg: 'img/img-trending/Image Placeholder.png' },
+    ],
+}
+
+let textImgModalDissCover = {
+    one: { txt: 'one : Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, repellat. Dolor tempora inventore aliquid tempore vero veritatis perspiciatis modi beatae!' },
+    two: { txt: 'two : Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, repellat. Dolor tempora inventore aliquid tempore vero veritatis perspiciatis modi beatae!' },
+    three: { txt: 'three : Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, repellat. Dolor tempora inventore aliquid tempore vero veritatis perspiciatis modi beatae!' },
+}
+
+let test;
+discoverMoreBoxs.forEach((box) => {
+    box.addEventListener('click', (event) => {
+        if (box.classList[0] === 'one') {
+            let saveSrcImgMain = imgModalDiscoverMoreList.one.filter((src) => {
+                return src.srcImg === 'img/img-trending/Image Placeholder.png';
+            })
+
+            textBoxImgModaldissCover.innerHTML = '';
+            textBoxImgModaldissCover.insertAdjacentHTML('beforeend' , `<span>${textImgModalDissCover.one.txt}</span>`);
+
+            box_img_modal_discover.innerHTML = '';
+            imgModalDiscoverMoreList.one.forEach((item) => {
+                box_img_modal_discover.insertAdjacentHTML('beforeend', `<div class=""><img class="img_last" src="${item.srcImg}" width="70" alt=""></div>`);
+            })
+
+            let lastImg = $.querySelectorAll('.img_last');
+            lastImg.forEach((item) => {
+                item.addEventListener('click', (event) => {
+                    test = event.target.src;
+                    imgModalDissmore.src = test;
+                })
+            })
+
+            imgModalDissmore.src = saveSrcImgMain[0].srcImg;
+            console.log(imgModalDiscoverMoreList.one);
+
+        }
+        if (box.classList[0] === 'two') {
+            let saveSrcImgMain = imgModalDiscoverMoreList.two.filter((src) => {
+                return src.srcImg === 'img/img-trending/Image Placeholder-3.png';
+            })
+
+            textBoxImgModaldissCover.innerHTML = '';
+            textBoxImgModaldissCover.insertAdjacentHTML('beforeend' , `<span>${textImgModalDissCover.two.txt}</span>`);
+
+            box_img_modal_discover.innerHTML = '';
+            imgModalDiscoverMoreList.two.forEach((item) => {
+                box_img_modal_discover.insertAdjacentHTML('beforeend', `<div class=""><img class="img_last" src="${item.srcImg}" width="70" alt=""></div>`);
+            })
+
+            let lastImg = $.querySelectorAll('.img_last');
+            lastImg.forEach((item) => {
+                item.addEventListener('click', (event) => {
+                    test = event.target.src;
+                    imgModalDissmore.src = test;
+                })
+            })
+
+            imgModalDissmore.src = saveSrcImgMain[0].srcImg;
+            console.log(imgModalDiscoverMoreList.two);
+
+        }
+        if (box.classList[0] === 'three') {
+            let saveSrcImgMain = imgModalDiscoverMoreList.three.filter((src) => {
+                return src.srcImg === 'img/img-trending/Image Placeholder-2.png';
+            })
+
+            textBoxImgModaldissCover.innerHTML = '';
+            textBoxImgModaldissCover.insertAdjacentHTML('beforeend' , `<span>${textImgModalDissCover.three.txt}</span>`);
+
+            box_img_modal_discover.innerHTML = '';
+            imgModalDiscoverMoreList.three.forEach((item) => {
+                box_img_modal_discover.insertAdjacentHTML('beforeend', `<div class=""><img class="img_last" src="${item.srcImg}" width="70" alt=""></div>`);
+            })
+
+            let lastImg = $.querySelectorAll('.img_last');
+            lastImg.forEach((item) => {
+                item.addEventListener('click', (event) => {
+                    test = event.target.src;
+                    imgModalDissmore.src = test;
+                })
+            })
+
+            imgModalDissmore.src = saveSrcImgMain[0].srcImg;
+            console.log(imgModalDiscoverMoreList.three);
+
+        }
+    })
+})
