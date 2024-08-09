@@ -74,6 +74,10 @@ body {
     color: #e4e4e4e8;
 }
 
+.bg-light-50 {
+    background-color: #e4e4e4e8;
+}
+
 .badge_style {
     top: 18px !important;
     left: 20px !important;
@@ -628,7 +632,7 @@ body {
     cursor: pointer;
 }
 
-/* button styling */
+/* * button styling */
 .title_text_hover {
     --border-right: 6px;
     --text-stroke-color: rgba(255, 255, 255, 0.6);
@@ -644,7 +648,6 @@ body {
     -webkit-text-stroke: 1px var(--text-stroke-color);
 }
 
-/* this is the text, when you hover on button */
 .hover-text {
     position: absolute;
     box-sizing: border-box;
@@ -658,8 +661,92 @@ body {
     -webkit-text-stroke: 1px var(--animation-color);
 }
 
-/* hover */
 .title_text_hover:hover .hover-text {
     width: 100%;
     filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
+/* * button styling */
+.btn_see_more {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #2c9caf;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #2c9caf;
+}
+
+.btn_see_more:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid #70bdca;
+    box-shadow: 4px 5px 17px -4px #268391;
+}
+
+.btn_see_more::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #2c9caf;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+}
+
+.btn_see_more:hover::before {
+    width: 250%;
+}
+
+.tel_shadow {
+    border-radius: 50%;
+    transition: 300ms;
+}
+
+.tel_shadow:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px #2AABEE;
+}
+
+.linkedin_shadow {
+    border-radius: 15%;
+    transition: 300ms;
+}
+
+.linkedin_shadow:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px #0a66c2;
+}
+
+.ins_shadow {
+    border-radius: 15%;
+    transition: 300ms;
+}
+
+.ins_shadow:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px #c837ab;
+}
+
+.text_shadow_footer {
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.text_shadow_footer:hover {
+    transform: translateX(10px);
+}
+
+.text_shadow_footer:hover>a {
+    color: #37ff8a85;
+    -webkit-text-stroke :0.5px #37ff8a85 ;
 }
