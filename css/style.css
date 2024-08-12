@@ -302,6 +302,15 @@ body {
     border-bottom: 1px solid #3B3B3B;
 }
 
+.img_size_soecial {
+    width: 70px;
+}
+
+.bg_box_special {
+    background-color: #ffffff23;
+    backdrop-filter: blur(10px);
+}
+
 @media only screen and (min-width:1600.80px) {
     .modal_lg_one {
         --bs-modal-width: 1300px;
