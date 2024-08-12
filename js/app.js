@@ -69,10 +69,11 @@ let textImgModalLogos = {
 }
 
 let boxVisitingCard;
+let visitingTitleBox ;
 let saveSrcCartVisitImg;
 let saveTitle;
 imgVisitingCardList.forEach((item) => {
-    contentBoxVisitCarts.insertAdjacentHTML('beforeend', `<div class="col-lg-3 col-sm-6 col-12" data-aos="fade-up"><a href="#" id="${item.id}" data-bs-toggle="modal" data-bs-target="#visitingCard" class="box-visiting-card text-decoration-none anime_box_item position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4"><div class="img_box_size_card_visiting_card"><img src="${item.srcImg}" class="img_size_card_visiting_card" alt=""></div><div class=""><span class="text-light fs_creators_title">Keepitreal</span><span class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">TotalSalesL: <p class="text-light mb-0">34.53 ETH</p> </span></div></a></div>`);
+    contentBoxVisitCarts.insertAdjacentHTML('beforeend', `<div class="col-lg-3 col-sm-6 col-12" data-aos="fade-up"><a href="#" id="${item.id}" data-bs-toggle="modal" data-bs-target="#visitingCard" class="box-visiting-card text-decoration-none anime_box_item position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4"><div class="img_box_size_card_visiting_card"><img src="${item.srcImg}" class="img_size_card_visiting_card" alt=""></div><div class=""><span class="text-light fs_creators_title">${item.title}</span><span class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">TotalSalesL: <p class="text-light mb-0">34.53 ETH</p> </span></div></a></div>`);
 
     boxVisitingCard = $.querySelectorAll('.box-visiting-card');
     boxVisitingCard.forEach((imgBox) => {
@@ -90,7 +91,7 @@ imgVisitingCardList.forEach((item) => {
 
 let saveSrcLastImg;
 imgBox.forEach((box) => {
-    box.addEventListener('click', (event) => {
+    box.addEventListener('click', (event) => {      
         if (event.target.id === 'one') {
             let saveSrcImgMain = imgPhotomontageList.one.filter((src) => {
                 return src.srcImg === 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg';
@@ -108,7 +109,7 @@ imgBox.forEach((box) => {
         }
         if (event.target.id === 'two') {
             let saveSrcImgMain = imgPhotomontageList.two.filter((src) => {
-                return src.srcImg === 'img/img-trending/Primary Photo Placeholder-1.png';
+                return src.srcImg === 'img/flat-design-teacher-s-day-template_23-2150254244.jpg';
             })
 
             textBoxImgModal.innerHTML = '';
@@ -119,11 +120,11 @@ imgBox.forEach((box) => {
                 imgBoxLastModal.insertAdjacentHTML('beforeend', `<div class=""><img class="img_last" src="${item.srcImg}" width="70" alt=""></div>`);
             })
             clickSrc()
-            imgMainModal.src = saveSrcImgMain[0].srcImg;
+            imgMainModal.src = saveSrcImgMain[0].srcImg;        
         }
         if (event.target.id === 'three') {
             let saveSrcImgMain = imgPhotomontageList.three.filter((src) => {
-                return src.srcImg === 'img/img-trending/Primary Photo Placeholder-2.png';
+                return src.srcImg === 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg';
             })
 
             textBoxImgModal.innerHTML = '';
@@ -150,10 +151,10 @@ function clickSrc() {
 }
 
 let imgBannerCardList = [
-    { id: 1, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'hello', content: 'lorem hello world lorem hello world lorem hello world' },
-    { id: 2, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'hello', content: 'lorem hello world lorem hello world lorem hello world' },
-    { id: 3, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'hello', content: 'lorem hello world lorem hello world lorem hello world' },
-    { id: 4, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'hello', content: 'lorem hello world lorem hello world lorem hello world' }
+    { id: 1, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'ali', content: 'lorem hello world lorem hello world lorem hello world' },
+    { id: 2, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'mahdi', content: 'lorem hello world lorem hello world lorem hello world' },
+    { id: 3, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'amir', content: 'lorem hello world lorem hello world lorem hello world' },
+    { id: 4, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'reza', content: 'lorem hello world lorem hello world lorem hello world' }
 ]
 
 let boxBannerCard;
