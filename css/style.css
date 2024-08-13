@@ -793,6 +793,11 @@ body {
     -webkit-text-stroke: 0.5px #37ff8a85;
 }
 
+.text_shadow_footer:hover>span {
+    color: #37ff8a85;
+    -webkit-text-stroke: 0.5px #37ff8a85;
+}
+
 .text_shadow_footer_fs {
     transition: 300ms;
     cursor: pointer;
@@ -803,6 +808,11 @@ body {
 }
 
 .text_shadow_footer_fs:hover>a {
+    color: #37ff8a85;
+    -webkit-text-stroke: 0.5px #37ff8a85;
+}
+
+.text_shadow_footer_fs:hover>span {
     color: #37ff8a85;
     -webkit-text-stroke: 0.5px #37ff8a85;
 }
