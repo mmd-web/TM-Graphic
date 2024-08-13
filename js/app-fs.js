@@ -46,30 +46,30 @@ let imgPhotomontageList = {
 }
 // todo لیست متن های فتومونتاژ
 let textImgPhotomontageList = {
-    one: { txt: 'lorem text lorem text lorem text lorem text lorem text lorem text lorem text lorem text' },
-    two: { txt: 'lorem text lorem text lorem text lorem text lorem text lorem text lorem text lorem text' },
-    three: { txt: 'lorem text lorem text lorem text lorem text lorem text lorem text lorem text lorem text' },
+    one: { txt: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    two: { txt: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    three: { txt: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
 }
 // todo لیست آدرس فایل های کارت ویزیت
 let imgVisitingCardList = [
-    { id: 1, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'mahdi abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 2, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'ali abbasi', subTitle: 'Lorem ipsum dolor sit' },
-    { id: 3, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'reza abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 4, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'alireza abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 5, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'adfd abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 6, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'mxcvfi abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 7, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'mah]gg abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 8, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'mahdb[ki abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 9, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'mahdskidfgi abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 10, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'mahdiuiul abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 11, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'mahdxcsi abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 12, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'mahddfdfi abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' }
+    { id: 1, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'مهدی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 2, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'علی عباسی', subTitle: 'Lorem ipsum dolor sit' },
+    { id: 3, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'رضا عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 4, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'مهدی عباسی', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 5, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'علی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 6, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'رضا عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 7, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'مهدی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 8, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'علی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 9, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'رضا عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 10, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'مهدی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 11, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'علی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 12, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'رضا عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' }
 ]
 // todo 
 let textImgModalLogos = {
-    one: { txt: 'one : Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, repellat. Dolor tempora inventore aliquid tempore vero veritatis perspiciatis modi beatae!' },
-    two: { txt: 'two : Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, repellat. Dolor tempora inventore aliquid tempore vero veritatis perspiciatis modi beatae!' },
-    three: { txt: 'three : Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, repellat. Dolor tempora inventore aliquid tempore vero veritatis perspiciatis modi beatae!' },
+    one: { txt: 'one : لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    two: { txt: 'two : لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    three: { txt: 'three : لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
 }
 
 let boxVisitingCard;
@@ -102,7 +102,7 @@ imgBox.forEach((box) => {
             })
 
             textBoxImgModal.innerHTML = '';
-            textBoxImgModal.insertAdjacentHTML('beforeend', `<span>${textImgPhotomontageList.one.txt}</span>`);
+            textBoxImgModal.insertAdjacentHTML('beforeend', `<span class="lh-lg" >${textImgPhotomontageList.one.txt}</span>`);
 
             imgBoxLastModal.innerHTML = '';
             imgPhotomontageList.one.forEach((item) => {
@@ -117,7 +117,7 @@ imgBox.forEach((box) => {
             })
 
             textBoxImgModal.innerHTML = '';
-            textBoxImgModal.insertAdjacentHTML('beforeend', `<span>${textImgPhotomontageList.one.txt}</span>`);
+            textBoxImgModal.insertAdjacentHTML('beforeend', `<span class="lh-lg">${textImgPhotomontageList.one.txt}</span>`);
 
             imgBoxLastModal.innerHTML = '';
             imgPhotomontageList.two.forEach((item) => {
@@ -132,7 +132,7 @@ imgBox.forEach((box) => {
             })
 
             textBoxImgModal.innerHTML = '';
-            textBoxImgModal.insertAdjacentHTML('beforeend', `<span>${textImgPhotomontageList.one.txt}</span>`);
+            textBoxImgModal.insertAdjacentHTML('beforeend', `<span class="lh-lg">${textImgPhotomontageList.one.txt}</span>`);
 
             imgBoxLastModal.innerHTML = '';
             imgPhotomontageList.three.forEach((item) => {
@@ -155,17 +155,17 @@ function clickSrc() {
 }
 
 let imgBannerCardList = [
-    { id: 1, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'ali', content: 'lorem hello world lorem hello world lorem hello world' },
-    { id: 2, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'mahdi', content: 'lorem hello world lorem hello world lorem hello world' },
-    { id: 3, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'amir', content: 'lorem hello world lorem hello world lorem hello world' },
-    { id: 4, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'reza', content: 'lorem hello world lorem hello world lorem hello world' }
+    { id: 1, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'علی', content: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 2, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'رضا', content: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 3, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'مهدی', content: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 4, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'حسین', content: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' }
 ]
 
 let imgPostCardList = [
-    { id: 1, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg', name: 'ali', content: 'lorem hello world lorem hello world lorem hello world' },
-    { id: 2, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg', name: 'mahdi', content: 'lorem hello world lorem hello world lorem hello world' },
-    { id: 3, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg', name: 'amir', content: 'lorem hello world lorem hello world lorem hello world' },
-    { id: 4, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg', name: 'reza', content: 'lorem hello world lorem hello world lorem hello world' }
+    { id: 1, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg', name: 'علی', content: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 2, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg', name: 'رضا', content: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 3, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg', name: 'امیر', content: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 4, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg', name: 'امیررضا', content: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' }
 ]
 
 let boxBannerCard;

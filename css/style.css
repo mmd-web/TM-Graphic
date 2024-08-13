@@ -7,21 +7,27 @@
     font-family: fontSans;
     font-style: normal;
     font-weight: 900;
-    src: url('../font/WorkSans-Black.ttf'), format('ttf');
+    src: url('../font/en/WorkSans-Medium.ttf'), format('ttf');
 }
 
 @font-face {
     font-family: fontSans;
     font-style: normal;
     font-weight: 700;
-    src: url('../font/WorkSans-Bold.ttf'), format('ttf');
+    src: url('../font/en/WorkSans-Medium.ttf'), format('ttf');
 }
 
 @font-face {
     font-family: fontSans;
     font-style: normal;
     font-weight: 400;
-    src: url('../font/WorkSans-Medium.ttf'), format('ttf');
+    src: url('../font/en/WorkSans-Medium.ttf'), format('ttf');
+}
+
+@font-face {
+    font-family: fa-font;
+    font-size: normal;
+    src: url('../font/fa/Dirooz-FD.ttf');
 }
 
 .fontSans {
