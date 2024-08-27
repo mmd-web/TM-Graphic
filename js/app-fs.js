@@ -52,18 +52,18 @@ let textImgPhotomontageList = {
 }
 // todo لیست آدرس فایل های کارت ویزیت
 let imgVisitingCardList = [
-    { id: 1, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'مهدی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
-    { id: 2, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'علی عباسی', subTitle: 'Lorem ipsum dolor sit' },
-    { id: 3, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'رضا عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
-    { id: 4, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'مهدی عباسی', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 5, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'علی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
-    { id: 6, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'رضا عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
-    { id: 7, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'مهدی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
-    { id: 8, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'علی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
-    { id: 9, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'رضا عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
-    { id: 10, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'مهدی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
-    { id: 11, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'علی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
-    { id: 12, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', title: 'رضا عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' }
+    { id: 1, srcImg: 'img/Visiting_Card/1.jpg', title: 'مهدی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 2, srcImg: 'img/Visiting_Card/2.jpg', title: 'علی عباسی', subTitle: 'Lorem ipsum dolor sit' },
+    { id: 3, srcImg: 'img/Visiting_Card/3.jpg', title: 'رضا عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 4, srcImg: 'img/Visiting_Card/4.jpg', title: 'مهدی عباسی', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 5, srcImg: 'img/Visiting_Card/5.jpg', title: 'علی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 6, srcImg: 'img/Visiting_Card/6.jpg', title: 'رضا عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 7, srcImg: 'img/Visiting_Card/7.jpg', title: 'مهدی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 8, srcImg: 'img/Visiting_Card/8.jpg', title: 'علی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 9, srcImg: 'img/Visiting_Card/9.jpg', title: 'رضا عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 10, srcImg: 'img/Visiting_Card/10.jpg', title: 'مهدی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 11, srcImg: 'img/Visiting_Card/11.jpg', title: 'علی عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' },
+    { id: 12, srcImg: 'img/Visiting_Card/12.jpg', title: 'رضا عباسی', subTitle: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،' }
 ]
 // todo 
 let textImgModalLogos = {
@@ -210,19 +210,19 @@ imgPostCardList.forEach((item) => {
 
 let imgModalLogoList = {
     one: [
-        { id: 1, srcImg: 'img/img-trending/Image Placeholder.png' },
-        { id: 2, srcImg: 'img/img-trending/Image Placeholder-2.png' },
-        { id: 3, srcImg: 'img/img-trending/Image Placeholder-3.png' },
+        { id: 1, srcImg: 'img/LogoSample/01/one-01.jpg' },
+        { id: 2, srcImg: 'img/LogoSample/01/one-02.jpg' },
+        { id: 3, srcImg: 'img/LogoSample/01/one-03.jpg' },
     ],
     two: [
-        { id: 4, srcImg: 'img/img-trending/Image Placeholder-3.png' },
-        { id: 5, srcImg: 'img/img-trending/Image Placeholder.png' },
-        { id: 6, srcImg: 'img/img-trending/Image Placeholder-2.png' },
+        { id: 4, srcImg: 'img/LogoSample/02/two-01.jpg' },
+        { id: 5, srcImg: 'img/LogoSample/02/two-02.jpg' },
+        { id: 6, srcImg: 'img/LogoSample/02/two-03.jpg' },
     ],
     three: [
-        { id: 7, srcImg: 'img/img-trending/Image Placeholder-2.png' },
-        { id: 8, srcImg: 'img/img-trending/Image Placeholder-3.png' },
-        { id: 9, srcImg: 'img/img-trending/Image Placeholder.png' },
+        { id: 7, srcImg: 'img/LogoSample/01/one-03.jpg' },
+        { id: 8, srcImg: 'img/LogoSample/01/one-02.jpg' },
+        { id: 9, srcImg: 'img/LogoSample/01/one-01.jpg' },
     ],
 }
 
@@ -231,7 +231,7 @@ LogosBox.forEach((box) => {
     box.addEventListener('click', (event) => {
         if (box.classList[0] === 'one') {
             let saveSrcImgMain = imgModalLogoList.one.filter((src) => {
-                return src.srcImg === 'img/img-trending/Image Placeholder.png';
+                return src.srcImg === 'img/LogoSample/01/one-01.jpg';
             })
 
             textBoxImgModalLogos.innerHTML = '';
@@ -256,7 +256,7 @@ LogosBox.forEach((box) => {
         }
         if (box.classList[0] === 'two') {
             let saveSrcImgMain = imgModalLogoList.two.filter((src) => {
-                return src.srcImg === 'img/img-trending/Image Placeholder-3.png';
+                return src.srcImg === 'img/LogoSample/02/two-01.jpg';
             })
 
             textBoxImgModalLogos.innerHTML = '';
@@ -281,7 +281,7 @@ LogosBox.forEach((box) => {
         }
         if (box.classList[0] === 'three') {
             let saveSrcImgMain = imgModalLogoList.three.filter((src) => {
-                return src.srcImg === 'img/img-trending/Image Placeholder-2.png';
+                return src.srcImg === 'img/LogoSample/01/one-01.jpg';
             })
 
             textBoxImgModalLogos.innerHTML = '';
