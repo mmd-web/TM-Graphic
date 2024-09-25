@@ -27,21 +27,22 @@ let textBoxImgModalLogos = $.querySelector('.text_box_img_modal_Logos');
 let saveSrcCartBanner;
 
 // todo لیست آدرس فایل های فتومونتاژ
+// آدرس های زیر عوض میشن
 let imgPhotomontageList = {
     one: [
-        { id: 1, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' },
-        { id: 2, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg' },
-        { id: 3, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' },
+        { id: 1, srcImg: 'public/img/Photomontage/01/1.jpg' },
+        { id: 2, srcImg: 'public/img/Photomontage/01/2.jpg' },
+        { id: 3, srcImg: 'public/img/Photomontage/01/3.jpg' },
     ],
     two: [
-        { id: 4, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' },
-        { id: 5, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg' },
-        { id: 6, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' },
+        { id: 4, srcImg: 'public/img/Photomontage/02/1.jpg' },
+        { id: 5, srcImg: 'public/img/Photomontage/02/2.jpg' },
+        { id: 6, srcImg: 'public/img/Photomontage/02/3.jpg' },
     ],
     three: [
-        { id: 7, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg' },
-        { id: 8, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' },
-        { id: 9, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg' },
+        { id: 7, srcImg: 'public/img/Photomontage/03/1.jpg' },
+        { id: 8, srcImg: 'public/img/Photomontage/03/2.jpg' },
+        { id: 9, srcImg: 'public/img/Photomontage/03/3.jpg' },
     ],
 }
 // todo لیست متن های فتومونتاژ
@@ -95,12 +96,15 @@ imgVisitingCardList.forEach((item) => {
     })
 })
 
+// آدرس های زیر عوض میشن
 let saveSrcLastImg;
 imgBox.forEach((box) => {
-    box.addEventListener('click', (event) => {      
+    box.addEventListener('click', (event) => {   
+        console.log(event);
+           
         if (event.target.id === 'one') {
             let saveSrcImgMain = imgPhotomontageList.one.filter((src) => {
-                return src.srcImg === 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg';
+                return src.srcImg === 'public/img/Photomontage/01/1.jpg';
             })
 
             textBoxImgModal.innerHTML = '';
@@ -115,7 +119,7 @@ imgBox.forEach((box) => {
         }
         if (event.target.id === 'two') {
             let saveSrcImgMain = imgPhotomontageList.two.filter((src) => {
-                return src.srcImg === 'img/flat-design-teacher-s-day-template_23-2150254244.jpg';
+                return src.srcImg === 'public/img/Photomontage/02/1.jpg';
             })
 
             textBoxImgModal.innerHTML = '';
@@ -130,7 +134,7 @@ imgBox.forEach((box) => {
         }
         if (event.target.id === 'three') {
             let saveSrcImgMain = imgPhotomontageList.three.filter((src) => {
-                return src.srcImg === 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg';
+                return src.srcImg === 'public/img/Photomontage/03/1.jpg';
             })
 
             textBoxImgModal.innerHTML = '';
@@ -141,7 +145,7 @@ imgBox.forEach((box) => {
                 imgBoxLastModal.insertAdjacentHTML('beforeend', `<div class=""><img class="img_last" src="${item.srcImg}" width="70" alt=""></div>`);
             })
             clickSrc()
-            imgMainModal.src = saveSrcImgMain[0].srcImg;
+            imgMainModal.src = saveSrcImgMain[0].srcImg;   
         }
     })
 })
@@ -156,18 +160,20 @@ function clickSrc() {
     })
 }
 
+// عکس های اینجا عوض میشن
 let imgBannerCardList = [
-    { id: 1, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'ali', content: 'lorem hello world lorem hello world lorem hello world' },
-    { id: 2, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'mahdi', content: 'lorem hello world lorem hello world lorem hello world' },
-    { id: 3, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'amir', content: 'lorem hello world lorem hello world lorem hello world' },
-    { id: 4, srcImg: 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name: 'reza', content: 'lorem hello world lorem hello world lorem hello world' }
+    { id: 1, srcImg: 'public/img/banner/1.jpg', name: 'ali', content: 'lorem hello world lorem hello world lorem hello world' },
+    { id: 2, srcImg: 'public/img/banner/2.jpg', name: 'mahdi', content: 'lorem hello world lorem hello world lorem hello world' },
+    { id: 3, srcImg: 'public/img/banner/3.jpg', name: 'amir', content: 'lorem hello world lorem hello world lorem hello world' },
+    { id: 4, srcImg: 'public/img/banner/4.jpg', name: 'reza', content: 'lorem hello world lorem hello world lorem hello world' }
 ]
 
+// عکس های اینجا عوض میشن
 let imgPostCardList = [
-    { id: 1, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg', name: 'ali', content: 'lorem hello world lorem hello world lorem hello world' },
-    { id: 2, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg', name: 'mahdi', content: 'lorem hello world lorem hello world lorem hello world' },
-    { id: 3, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg', name: 'amir', content: 'lorem hello world lorem hello world lorem hello world' },
-    { id: 4, srcImg: 'img/flat-design-teacher-s-day-template_23-2150254244.jpg', name: 'reza', content: 'lorem hello world lorem hello world lorem hello world' }
+    { id: 1, srcImg: 'public/img/story-img/1.jpg', name: 'ali', content: 'lorem hello world lorem hello world lorem hello world' },
+    { id: 2, srcImg: 'public/img/story-img/2.jpg', name: 'mahdi', content: 'lorem hello world lorem hello world lorem hello world' },
+    { id: 3, srcImg: 'public/img/story-img/3.jpg', name: 'amir', content: 'lorem hello world lorem hello world lorem hello world' },
+    { id: 4, srcImg: 'public/img/story-img/4.jpg', name: 'reza', content: 'lorem hello world lorem hello world lorem hello world' }
 ]
 
 let boxBannerCard;

@@ -3,27 +3,20 @@ let imgBannerCard = document.getElementById('img-banner-card');
 let textTitle = document.getElementById('title');
 let textSubTitle = document.getElementById('sub_title');
 
+// آدرس های زیر عوض شدن
 let imgBannerCardList = [
-    {id : 1 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name : 'ali', content : 'salam donya'},
-    {id : 2 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name : 'reza', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 3 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg', name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 4 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 5 , srcImg : 'img/flat-design-teacher-s-day-template_23-2150254244.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 6 , srcImg : 'img/flat-design-teacher-s-day-template_23-2150254244.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 7 , srcImg : 'img/flat-design-teacher-s-day-template_23-2150254244.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 8 , srcImg : 'img/flat-design-teacher-s-day-template_23-2150254244.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 9 , srcImg : 'img/flat-design-teacher-s-day-template_23-2150254244.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 10 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 11 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 12 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 13 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 14 , srcImg : 'img/flat-design-teacher-s-day-template_23-2150254244.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 15 , srcImg : 'img/flat-design-teacher-s-day-template_23-2150254244.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 16 , srcImg : 'img/flat-design-teacher-s-day-template_23-2150254244.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 17 , srcImg : 'img/flat-design-teacher-s-day-template_23-2150254244.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 18 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 19, srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
-    {id : 20 , srcImg : 'img/instagram-stories-template-with-online-shopping_23-2148545458.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'}
+    {id : 1 , srcImg : 'public/img/story-img/1.jpg', name : 'ali', content : 'salam donya'},
+    {id : 2 , srcImg : 'public/img/story-img/2.jpg', name : 'reza', content : 'lorem hello world lorem hello world lorem hello world'},
+    {id : 3 , srcImg : 'public/img/story-img/3.jpg', name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
+    {id : 4 , srcImg : 'public/img/story-img/4.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
+    {id : 5 , srcImg : 'public/img/story-img/5.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
+    {id : 6 , srcImg : 'public/img/story-img/6.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
+    {id : 7 , srcImg : 'public/img/story-img/7.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
+    {id : 8 , srcImg : 'public/img/story-img/8.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
+    {id : 9 , srcImg : 'public/img/story-img/9.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
+    {id : 10 , srcImg : 'public/img/story-img/10.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
+    {id : 11 , srcImg : 'public/img/story-img/11.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'},
+    {id : 12 , srcImg : 'public/img/story-img/12.jpg' , name : 'hello', content : 'lorem hello world lorem hello world lorem hello world'}
 ]
 
 let boxBannerCard ;

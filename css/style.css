@@ -202,8 +202,18 @@ body {
 }
 
 .box_title_page_logo {
-    height: 500px;
-    background-image: url('../img/img-trending/NFT\ Highlight.png');
+    height: 770px;
+    width: 100%;
+    background-image: url('../public/img/header-story/1920.720.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+.box_title_page_banner {
+    height: 720px;
+    width: 100%;
+    background-image: url('../public/img/header-banner/1920.720.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -235,6 +245,9 @@ body {
 
 .border_modal {
     border-right: 2px solid #c2c2c276;
+}
+.border_modal_left {
+    border-left: 2px solid #c2c2c276;
 }
 
 #title {
@@ -346,6 +359,7 @@ body {
     .modal_lg_one {
         --bs-modal-width: 900px;
     }
+    
 }
 
 @media only screen and (max-width:1199.80px) {
@@ -368,27 +382,73 @@ body {
     }
 }
 
+/* عوض شده */
 @media only screen and (max-width:1024.80px) {
     .header_content {
         background-image: url('../img/background/1024.1366header.jpg');
     }
+    .box_title_page_logo {
+        height: 850px;
+        background-image: url('../public/img/header-story/1024.910.02.jpg');
+    }
+    .box_title_page_banner {
+        height: 850px;
+        background-image: url('../public/img/header-banner/1024.910.jpg');
+    }
+}
+@media only screen and (max-width:853.80px) {
+    .box_title_page_logo {
+        height: 755px;
+        background-image: url('../public/img/header-story/1024.910.02.jpg');
+    }
+    .box_title_page_banner {
+        height: 755px;
+        background-image: url('../public/img/header-banner/1024.910.jpg');
+    }
 }
 
+/* عوض شده */
 @media only screen and (max-width:768.80px) {
     .header_content {
         background-image: url('../img/background/768.1024header.jpg');
     }
-}
-
-@media only screen and (max-width:414.80px) {
-    .header_content {
-        background-image: url('../img/background/414.869header\ copy.jpg');
+    .box_title_page_logo {
+        height: 490px;
+        background-image: url('../public/img/header-story/768.682.jpg');
+    }
+    .box_title_page_banner {
+        height: 490px;
+        background-image: url('../public/img/header-banner/768.682.jpg');
     }
 }
 
+/* عوض شده */
+@media only screen and (max-width:450.80px) {
+    .header_content {
+        background-image: url('../img/background/414.869header\ copy.jpg');
+    }
+    .box_title_page_logo {
+        height: 525px;
+        background-image: url('../public/img/header-story/414.579.jpg');
+    }
+    .box_title_page_banner {
+        height: 525px;
+        background-image: url('../public/img/header-banner/414.579.jpg');
+    }
+}
+
+/* عوض شده */
 @media only screen and (max-width:375.80px) {
     .header_content {
         background-image: url('../img/background/375.667header\ copy.jpg');
+    }
+    .box_title_page_logo {
+        height: 430px;
+        background-image: url('../public/img/header-story/375.444.jpg');
+    }
+    .box_title_page_banner {
+        height: 430px;
+        background-image: url('../public/img/header-banner/375.444.jpg');
     }
 }
 
@@ -971,4 +1031,7 @@ body {
 }
 .bg_phone_num {
     background-color: #c9c9c9b4;
+}
+#img_main_modal {
+    width: 100%;
 }
