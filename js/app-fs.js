@@ -76,8 +76,10 @@ let boxVisitingCard;
 let visitingTitleBox ;
 let saveSrcCartVisitImg;
 let saveTitle;
+
+// عوض میشه
 imgVisitingCardList.forEach((item) => {
-    contentBoxVisitCarts.insertAdjacentHTML('beforeend', `<div class="col-lg-3 col-sm-6 col-12" data-aos="fade-up"><a href="#" id="${item.id}" data-bs-toggle="modal" data-bs-target="#visitingCard" class="box-visiting-card text-decoration-none anime_box_item position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4"><div class="img_box_size_card_visiting_card"><img src="${item.srcImg}" class="img_size_card_visiting_card" alt=""></div><div class=""><span class="text-light fs_creators_title">${item.title}</span><span class="text-light-50 d-flex fs_creators_subtitle flex-row column-gap-2 mt-1">TotalSalesL: <p class="text-light mb-0">34.53 ETH</p> </span></div></a></div>`);
+    contentBoxVisitCarts.insertAdjacentHTML('beforeend', `<div class="col-lg-3 col-sm-6 col-12" data-aos="fade-up"><a href="#" id="${item.id}" data-bs-toggle="modal" data-bs-target="#visitingCard" class="box-visiting-card text-decoration-none anime_box_item position-relative w-100 h-100 d-flex flex-lg-column flex-row justify-content-lg-center justify-content-start align-items-center row-gap-lg-4 column-gap-3 text-lg-center text-start background_color_two py-4 px-3 rounded-4"><div class="img_box_size_card_visiting_card"><img src="${item.srcImg}" class="img_size_card_visiting_card" alt=""></div><div class=""><span class="text-light fs_creators_title">${item.title}</span></div></a></div>`);
 
     boxVisitingCard = $.querySelectorAll('.box-visiting-card');
     boxVisitingCard.forEach((imgBox) => {
@@ -306,3 +308,22 @@ LogosBox.forEach((box) => {
         }
     })
 })
+
+// کدهای جدیدی که باید اضافه کنی
+
+let copyBtnEvent = document.getElementById('copy_event');
+let spans = document.querySelectorAll('#phone_num');
+
+for (const span of spans) {
+  span.onclick = function() {
+    document.execCommand("copy");
+  }
+
+  span.addEventListener("copy", function(event) {
+    event.preventDefault();
+    if (event.clipboardData) {
+      event.clipboardData.setData("text/plain", span.textContent);
+      console.log(event.clipboardData.getData("text"))
+    }
+  });
+}

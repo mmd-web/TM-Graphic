@@ -112,9 +112,10 @@ body {
     width: 20px;
 }
 
+/* عوض میشه */
 .img_size_card_visiting_card {
     /* width: 100% !important; */
-    width: 140px;
+    width: 200px;
 }
 
 /* .magic_box {
@@ -435,8 +436,9 @@ body {
         width: 100% !important;
     }
 
+    /* عوض میشه */
     .img_box_size_card_visiting_card {
-        width: 25% !important;
+        width: 35% !important;
     }
 
     .container_magic {
@@ -960,4 +962,13 @@ body {
 .wrapper .facebook:hover .tooltip::before {
     background: #29abbf;
     color: #fff;
+}
+
+/* استایل های جدیدی اضافه شده که کپی میکنی */
+
+.w_copy_box {
+    width: 65%;
+}
+.bg_phone_num {
+    background-color: #c9c9c9b4;
 }
