@@ -53,18 +53,18 @@ let textImgPhotomontageList = {
 }
 // todo لیست آدرس فایل های کارت ویزیت
 let imgVisitingCardList = [
-    { id: 1, srcImg: 'img/Visiting_Card/1.jpg', title: 'mahdi abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 2, srcImg: 'img/Visiting_Card/2.jpg', title: 'ali abbasi', subTitle: 'Lorem ipsum dolor sit' },
-    { id: 3, srcImg: 'img/Visiting_Card/3.jpg', title: 'reza abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 4, srcImg: 'img/Visiting_Card/4.jpg', title: 'alireza abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 5, srcImg: 'img/Visiting_Card/5.jpg', title: 'adfd abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 6, srcImg: 'img/Visiting_Card/6.jpg', title: 'mxcvfi abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 7, srcImg: 'img/Visiting_Card/7.jpg', title: 'mah]gg abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 8, srcImg: 'img/Visiting_Card/8.jpg', title: 'adfd abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 9, srcImg: 'img/Visiting_Card/9.jpg', title: 'adfd abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 10, srcImg: 'img/Visiting_Card/10.jpg', title: 'adfd abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 11, srcImg: 'img/Visiting_Card/11.jpg', title: 'adfd abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
-    { id: 12, srcImg: 'img/Visiting_Card/12.jpg', title: 'adfd abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' }
+    { id: 1, srcImg: 'public/img-2/Visiting_Card/1.jpg', title: 'mahdi abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 2, srcImg: 'public/img-2/Visiting_Card/2.jpg', title: 'ali abbasi', subTitle: 'Lorem ipsum dolor sit' },
+    { id: 3, srcImg: 'public/img-2/Visiting_Card/3.jpg', title: 'reza abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 4, srcImg: 'public/img-2/Visiting_Card/4.jpg', title: 'alireza abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 5, srcImg: 'public/img-2/Visiting_Card/5.jpg', title: 'adfd abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 6, srcImg: 'public/img-2/Visiting_Card/6.jpg', title: 'mxcvfi abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 7, srcImg: 'public/img-2/Visiting_Card/7.jpg', title: 'mah]gg abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 8, srcImg: 'public/img-2/Visiting_Card/8.jpg', title: 'adfd abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 9, srcImg: 'public/img-2/Visiting_Card/9.jpg', title: 'adfd abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 10, srcImg: 'public/img-2/Visiting_Card/10.jpg', title: 'adfd abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 11, srcImg: 'public/img-2/Visiting_Card/11.jpg', title: 'adfd abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' },
+    { id: 12, srcImg: 'public/img-2/Visiting_Card/12.jpg', title: 'adfd abbasi', subTitle: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit ipsam explicabo voluptates accusantium iure necessitatibus magni voluptatem, mollitia eaque provident magnam nam doloribus rem quia quis suscipit beatae unde?' }
 ]
 // todo 
 let textImgModalLogos = {
@@ -218,19 +218,19 @@ imgPostCardList.forEach((item) => {
 
 let imgModalLogoList = {
     one: [
-        { id: 1, srcImg: 'img/LogoSample/01/one-03.jpg' },
-        { id: 2, srcImg: 'img/LogoSample/01/one-02.jpg' },
-        { id: 3, srcImg: 'img/LogoSample/01/one-01.jpg' },
+        { id: 1, srcImg: 'public/img-2/LogoSample/01/one-03.jpg' },
+        { id: 2, srcImg: 'public/img-2/LogoSample/01/one-02.jpg' },
+        { id: 3, srcImg: 'public/img-2/LogoSample/01/one-01.jpg' },
     ],
     two: [
-        { id: 4, srcImg: 'img/LogoSample/02/two-01.jpg' },
-        { id: 5, srcImg: 'img/LogoSample/02/two-02.jpg' },
-        { id: 6, srcImg: 'img/LogoSample/02/two-03.jpg' },
+        { id: 4, srcImg: 'public/img-2/LogoSample/02/two-01.jpg' },
+        { id: 5, srcImg: 'public/img-2/LogoSample/02/two-02.jpg' },
+        { id: 6, srcImg: 'public/img-2/LogoSample/02/two-03.jpg' },
     ],
     three: [
-        { id: 7, srcImg: 'img/LogoSample/03/1.jpg' },
-        { id: 8, srcImg: 'img/LogoSample/03/2.jpg' },
-        { id: 9, srcImg: 'img/LogoSample/03/تصویر-سوم.jpg' },
+        { id: 7, srcImg: 'public/img-2/LogoSample/03/1.jpg' },
+        { id: 8, srcImg: 'public/img-2/LogoSample/03/2.jpg' },
+        { id: 9, srcImg: 'public/img-2/LogoSample/03/تصویر-سوم.jpg' },
     ],
 }
 
@@ -239,7 +239,7 @@ LogosBox.forEach((box) => {
     box.addEventListener('click', (event) => {
         if (box.classList[0] === 'one') {
             let saveSrcImgMain = imgModalLogoList.one.filter((src) => {
-                return src.srcImg === 'img/LogoSample/01/one-03.jpg';
+                return src.srcImg === 'public/img-2/LogoSample/01/one-03.jpg';
             })
 
             textBoxImgModalLogos.innerHTML = '';
@@ -264,7 +264,7 @@ LogosBox.forEach((box) => {
         }
         if (box.classList[0] === 'two') {
             let saveSrcImgMain = imgModalLogoList.two.filter((src) => {
-                return src.srcImg === 'img/LogoSample/02/two-01.jpg';
+                return src.srcImg === 'public/img-2/LogoSample/02/two-01.jpg';
             })
 
             textBoxImgModalLogos.innerHTML = '';
@@ -289,7 +289,7 @@ LogosBox.forEach((box) => {
         }
         if (box.classList[0] === 'three') {
             let saveSrcImgMain = imgModalLogoList.three.filter((src) => {
-                return src.srcImg === 'img/LogoSample/03/1.jpg';
+                return src.srcImg === 'public/img-2/LogoSample/03/1.jpg';
             })
 
             textBoxImgModalLogos.innerHTML = '';
