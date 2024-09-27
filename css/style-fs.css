@@ -1,0 +1,131 @@
+.box_title_page_logo {
+  height: 770px;
+  width: 100%;
+  background-image: url('../public/img/header-story/1920.720.2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+}
+
+.box_title_page_banner {
+  height: 720px;
+  width: 100%;
+  background-image: url('../public/img/header-banner/1920.720.2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+}
+
+#bg-1280 {
+  display: none;
+}
+
+@media only screen and (min-width:1600.80px) {
+  .modal_lg_one {
+      --bs-modal-width: 1300px;
+  }
+}
+
+@media only screen and (max-width:1600.80px) {
+  #bg-1280 {
+      display: flex;
+  }
+}
+
+@media only screen and (max-width:1199.80px) {
+  #bg-1280 {
+      display: none;
+  }
+
+  .box_title_page_logo {
+      height: 1080px;
+      background-image: url('../public/img/header-story/1024.910.02.jpg');
+  }
+
+  .box_title_page_banner {
+      height: 1080px;
+      background-image: url('../public/img/header-banner/1024.910.02.jpg');
+  }
+}
+
+/* عوض شده */
+@media only screen and (max-width:1024.80px) {
+  #bg-1280 {
+      display: none;
+  }
+
+  .box_title_page_logo {
+      height: 850px;
+      background-image: url('../public/img/header-story/1024.910.02.jpg');
+  }
+
+  .box_title_page_banner {
+      height: 850px;
+      background-image: url('../public/img/header-banner/1024.910.02.jpg');
+  }
+}
+
+@media only screen and (max-width:853.80px) {
+  .box_title_page_logo {
+      height: 695px;
+      background-image: url('../public/img/header-story/768.682.02.jpg');
+  }
+
+  .box_title_page_banner {
+      height: 695px;
+      background-image: url('../public/img/header-banner/768.682.02.jpg');
+  }
+}
+
+/* عوض شده */
+@media only screen and (max-width:768.80px) {
+  .box_title_page_logo {
+      height: 695px;
+      background-image: url('../public/img/header-story/768.682.02.jpg');
+  }
+
+  .box_title_page_banner {
+      height: 695px;
+      background-image: url('../public/img/header-banner/768.682.02.jpg');
+  }
+}
+
+@media only screen and (max-width:550.80px) {
+  .box_title_page_logo {
+      height: 625px;
+      background-image: url('../public/img/header-story/414.579.02.jpg');
+  }
+
+  .box_title_page_banner {
+      height: 625px;
+      background-image: url('../public/img/header-banner/414.579.02.jpg');
+  }
+}
+
+/* عوض شده */
+@media only screen and (max-width:450.80px) {
+  .box_title_page_logo {
+      height: 525px;
+      background-image: url('../public/img/header-story/414.579.02.jpg');
+  }
+
+  .box_title_page_banner {
+      height: 525px;
+      background-image: url('../public/img/header-banner/414.579.02.jpg');
+  }
+}
+
+/* عوض شده */
+@media only screen and (max-width:375.80px) {
+  .box_title_page_logo {
+      height: 430px;
+      background-image: url('../public/img/header-story/375.444.02.jpg');
+  }
+
+  .box_title_page_banner {
+      height: 430px;
+      background-image: url('../public/img/header-banner/375.444.02.jpg');
+  }
+}
