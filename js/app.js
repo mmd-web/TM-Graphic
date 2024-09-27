@@ -218,9 +218,9 @@ imgPostCardList.forEach((item) => {
 
 let imgModalLogoList = {
     one: [
-        { id: 1, srcImg: 'img/LogoSample/01/one-01.jpg' },
+        { id: 1, srcImg: 'img/LogoSample/01/one-03.jpg' },
         { id: 2, srcImg: 'img/LogoSample/01/one-02.jpg' },
-        { id: 3, srcImg: 'img/LogoSample/01/one-03.jpg' },
+        { id: 3, srcImg: 'img/LogoSample/01/one-01.jpg' },
     ],
     two: [
         { id: 4, srcImg: 'img/LogoSample/02/two-01.jpg' },
@@ -228,9 +228,9 @@ let imgModalLogoList = {
         { id: 6, srcImg: 'img/LogoSample/02/two-03.jpg' },
     ],
     three: [
-        { id: 7, srcImg: 'img/LogoSample/01/one-03.jpg' },
-        { id: 8, srcImg: 'img/LogoSample/01/one-02.jpg' },
-        { id: 9, srcImg: 'img/LogoSample/01/one-01.jpg' },
+        { id: 7, srcImg: 'img/LogoSample/03/1.jpg' },
+        { id: 8, srcImg: 'img/LogoSample/03/2.jpg' },
+        { id: 9, srcImg: 'img/LogoSample/03/تصویر-سوم.jpg' },
     ],
 }
 
@@ -239,7 +239,7 @@ LogosBox.forEach((box) => {
     box.addEventListener('click', (event) => {
         if (box.classList[0] === 'one') {
             let saveSrcImgMain = imgModalLogoList.one.filter((src) => {
-                return src.srcImg === 'img/LogoSample/01/one-01.jpg';
+                return src.srcImg === 'img/LogoSample/01/one-03.jpg';
             })
 
             textBoxImgModalLogos.innerHTML = '';
@@ -289,7 +289,7 @@ LogosBox.forEach((box) => {
         }
         if (box.classList[0] === 'three') {
             let saveSrcImgMain = imgModalLogoList.three.filter((src) => {
-                return src.srcImg === 'img/LogoSample/01/one-03.jpg';
+                return src.srcImg === 'img/LogoSample/03/1.jpg';
             })
 
             textBoxImgModalLogos.innerHTML = '';
