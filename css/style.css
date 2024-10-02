@@ -979,7 +979,7 @@ body {
     --fs-size: 2em;
     letter-spacing: 3px;
     text-decoration: none;
-    font-size: var(--fs-size);
+    font-size:1.8rem;
     font-family: "Arial";
     position: relative;
     text-transform: uppercase;
