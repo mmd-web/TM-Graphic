@@ -79,7 +79,7 @@ let saveTitle;
 
 // عوض میشه
 imgVisitingCardList.forEach((item) => {
-    contentBoxVisitCarts.insertAdjacentHTML('beforeend', `<div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up"><a href="#" id="${item.id}" data-bs-toggle="modal" data-bs-target="#bannerCard" class="banner_box_item anime_box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden"><div><img src="${item.srcImg}" style="width: 100% !important;" alt=""></div><div class="py-lg-3 py-xl-4 py-sm-4 py-3 container text-light fs-4"><span>${item.title}</span></div></a></div>`);
+    contentBoxVisitCarts.insertAdjacentHTML('beforeend', `<div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up"><a href="#" id="${item.id}" data-bs-toggle="modal" data-bs-target="#visitingCard" class="box-visiting-card anime_box_item background_color_two text-decoration-none d-flex flex-column rounded-4 overflow-hidden"><div><img src="${item.srcImg}" style="width: 100% !important;" alt=""></div><div class="py-lg-3 py-xl-4 py-sm-4 py-3 container text-light fs-4"><span>${item.title}</span></div></a></div>`);
 
     boxVisitingCard = $.querySelectorAll('.box-visiting-card');
     boxVisitingCard.forEach((imgBox) => {
