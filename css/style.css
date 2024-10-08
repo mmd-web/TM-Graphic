@@ -641,12 +641,12 @@ body {
 
 @media only screen and (max-height:736.80px){
     .box_title_page_logo {
-        height: 595px;
+        height: 570px;
         background-image: url('../public/img/header-story/414.579.jpg');
     }
 
     .box_title_page_banner {
-        height: 595px;
+        height: 570px;
         background-image: url('../public/img/header-banner/414.579.jpg');
     }
 }
